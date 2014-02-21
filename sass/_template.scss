@@ -1,0 +1,666 @@
+/* de estilos*/
+
+
+.titulos-section{
+	font-family: $font-titular;
+	@include rem-fallback(font-size, 6);
+	font-weight: normal;
+	color: $color1;
+}
+.titulos-b{
+	font-family: $font-titular;
+	@include rem-fallback(font-size, 4);
+	color: $color1;
+	font-weight: normal;
+}
+.titulos-c{
+	font-family: $font-titular;
+	@include rem-fallback(font-size, 2.4);
+	color: $color1;
+	font-weight: normal;
+}
+.titulos-d{
+	font-family: $font-titular;
+	@include rem-fallback(font-size, 2);
+	color: $color1;
+	font-weight: normal;
+}
+.subtitulos{
+	font-family: $font-body;
+	@include rem-fallback(font-size, 2);
+	color: $color1;
+}
+.cuerpo_a{
+	font-family: $font-body;
+	@include rem-fallback(font-size, 1.6);
+	color: #000000;
+}
+.cuerpo_b{
+	font-family: $font-body;
+	@include rem-fallback(font-size, 1.8);
+	color: #000000;
+	line-height: 1.4em;
+}
+.cuerpo_c{
+	font-family: $font-titular;
+	@include rem-fallback(font-size, 1.6);
+	color: #000000;
+}
+.cuerpo_d{
+	font-family: $font-body;
+	@include rem-fallback(font-size, 2);
+	color: $color1;
+}
+
+.btn{
+	display:block;
+	@include rem-fallback(width, 17);
+	@include rem-fallback(height,3.5);
+	font-family: $font-titular;
+	text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
+	@include rem-fallback(font-size, 2.4);
+	color:#FFFFFF;
+	background-color:rgba(234,31,34,1);
+	border: 0px solid #000000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 35px;
+}
+.btn:hover{
+	color: $color1;
+	background-color:rgba(245,245,0,1);/* Old Browsers */
+
+}
+.icon_a, .icon_b, .icon_c, .icon_d, .icon_e{
+		display: inline-block;
+		@include rem-fallback(width, 4.8);
+		@include rem-fallback(height,4.8);
+		background-repeat: no-repeat;
+		text-align: left;
+		overflow: hidden;
+
+}
+
+.icon_a{
+	background: url('../images/sprite.png') 0 0;
+}
+a:hover{
+	.icon_a{
+	background: url('../images/sprite.png')  0 -48px;
+	}
+}
+.icon_b{
+	background: url('../images/sprite.png') -48px 0;
+}
+a:hover{
+	.icon_b{
+		background: url('../images/sprite.png') -48px -48px;
+	}
+}
+.icon_c{
+	background: url('../images/sprite.png') -96px 0 ;
+}
+a:hover{
+	.icon_c{
+		background: url('../images/sprite.png') -96px -48px ;
+	}
+}
+.icon_d{
+	background: url('../images/sprite.png') -144px 0;
+}
+a:hover{
+	.icon_d{
+		background: url('../images/sprite.png') -144px -48px ;
+	}
+}
+.icon_e{
+	background: url('../images/sprite.png') -192px 0 ;
+}
+a:hover{
+	.icon_e{
+		background: url('../images/sprite.png') -192px -48px;
+	}
+}
+.icon_f{
+	background: url('../images/sprite.png') -240px 0px;
+}
+.icon_g{
+	background: url('../images/sprite.png') -294px -14px;
+}
+.icon_h{
+	background: url('../images/sprite.png') -342px -14px;
+}
+
+.P40 {
+	@include rem-fallback(padding, 4);
+	&.PTop{
+		@include rem-fallback(padding, 4,0,0,0);
+	}
+	&.PBot{
+		@include rem-fallback(padding, 0,0,4,0);
+	}
+	&.PLeft{
+		@include rem-fallback(padding, 0,0,0,4);
+	}
+	&.PSide{
+		@include rem-fallback(padding, 0,4,0,4);
+	}
+}
+.P30 {
+	@include rem-fallback(padding, 3);
+	&.PTop{
+		@include rem-fallback(padding, 3,0,0,0);
+	}
+	&.PBot{
+		@include rem-fallback(padding, 0,0,3,0);
+	}
+	&.PLeft{
+		@include rem-fallback(padding, 0,0,0,3);
+	}
+	&.PSide{
+		@include rem-fallback(padding, 0,5,0,3);
+	}
+}
+.P20 {
+	@include rem-fallback(padding, 2);
+	&.PTop{
+		@include rem-fallback(padding, 2,0,0,0);
+	}
+	&.PBot{
+		@include rem-fallback(padding, 0,0,2,0);
+	}
+	&.PLeft{
+		@include rem-fallback(padding, 0,0,0,2);
+	}
+	&.PSide{
+		@include rem-fallback(padding, 0,2,0,2);
+	}
+}
+.P15 {
+	@include rem-fallback(padding, 1.5);
+	&.PTop{
+		@include rem-fallback(padding, 1.5,0,0,0);
+	}
+	&.PBot{
+		@include rem-fallback(padding, 0,0,1.5,0);
+	}
+	&.PLeft{
+		@include rem-fallback(padding, 0,0,0,1.5);
+	}
+	&.PSide{
+		@include rem-fallback(padding, 0,1.5,0,1.5);
+	}
+}
+.P5 {
+	@include rem-fallback(padding, 0.5);
+	&.PTop{
+		@include rem-fallback(padding, 0.5,0,0,0);
+	}
+	&.PBot{
+		@include rem-fallback(padding, 0,0,0.5,0);
+	}
+	&.PLeft{
+		@include rem-fallback(padding, 0,0,0,0.5);
+	}
+	&.PSide{
+		@include rem-fallback(padding, 0,0.5,0,0.5);
+	}
+}
+.M40 {
+	@include rem-fallback(margin, 4);
+	&.MTop{
+		@include rem-fallback(margin, 4,0,0,0);
+	}
+	&.MBot{
+		@include rem-fallback(margin, 0,0,4,0);
+	}
+	&.MLeft{
+		@include rem-fallback(margin, 0,0,0,4);
+	}
+	&.MSide{
+		@include rem-fallback(margin, 0,4,0,4);
+	}
+}
+
+.letra_capital:first-letter {
+	font-size: 2em;
+}
+//text-aling
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+
+//GRID
+html,body,#wrap{
+	width: 100%;
+	height: auto;
+	font-family: $font-body;
+	@include rem-fallback(font-family, 1.6);
+	color:#000000;
+}
+#warp{
+	height: auto;
+}
+header{
+	width: 100%;
+	@include rem-fallback(height, 24);
+	position: absolute;
+	top:0;
+	left:0;
+	span{
+		display: block;
+		width: 100%;
+		@include rem-fallback(height,4);
+		@include rem-fallback(padding, 0.5);
+ 		text-align: right;
+ 		a{
+ 			display: inline-block;
+ 			color: $color3;
+ 			@include rem-fallback(width,10);
+ 			height: 100%;
+ 			text-align: right;
+ 			vertical-align: middle;
+ 			@include rem-fallback(padding,0,1,0,0);
+ 			border-right: 1px inset #C0C0C0;
+ 			@include rem-fallback(font-size, 1.6); 
+ 		}
+ 		a:last-child{
+ 			border-right: none;
+ 		}
+		div{
+			display: inline-block;
+			@include rem-fallback(width, 3.5);
+			@include rem-fallback(height, 2);
+			@include rem-fallback(margin, 0.5,1);
+			overflow: hidden;
+			vertical-align: middle; 
+		}
+	}
+
+	
+	
+
+}
+#header-b{
+	width: 100%;
+	@include rem-fallback(height, 20);
+	background:url('../images/pattern.png') no-repeat;
+	-webkit-box-shadow: 4px 6px 10px rgba(0,0,0,.4);
+	-moz-box-shadow: 4px 6px 10px rgba(0,0,0,.4);
+	box-shadow: 4px 6px 10px rgba(0,0,0,.4);
+	display: inline-block;
+	text-align: left;
+	h2{
+		font-family:'arimo';
+		text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
+		@include rem-fallback(font-size, 2.8);
+		color:#FFFFFF;
+		@include rem-fallback(padding, 9,12.5,1,12.5);
+		@include rem-fallback(margin, 0,0,0,27);
+		@include rem-fallback(max-width, 90);
+		display: inline-block;
+		text-align: center;
+	}
+	nav{
+		font-family: $font-titular;
+		@include rem-fallback(padding, 0,12.5,0,12.5);
+		color:#FFFFFF;	
+		@include rem-fallback(margin, 0,0,0,27);
+		width: 100%;
+		@include rem-fallback(width, 75.4);
+		@include rem-fallback(height, 5.5);
+		display: inline-block;
+		text-align: center;
+		
+	}
+	ul{
+		display: inline-block;
+		text-align: center;
+		letter-spacing: 0;
+		width: 100%;
+		height: 100%;
+		border-top: 1px $color1 inset;
+		white-space: nowrap;
+
+	}
+	li{
+		display: inline-block;
+		width: 33.33%;
+		height: 100%;
+		letter-spacing: 0;
+		vertical-align: top;
+		&:last-child{
+			a {				
+				text-align: right;	
+			}
+		}
+		&:first-child{
+			a{
+				text-align: left;
+				vertical-align:middle;
+
+			}
+		}
+		&:nth-child(2){
+			a{
+				text-align: center;
+
+			}
+		}
+
+		a{
+			display: block;
+			text-align: left;
+			width: 100%;
+			height: 100%;
+			line-height: 55px;
+			color: #FFFFFF;
+			font-family: $font-titular;
+			@include rem-fallback(font-size, 2.2);
+		}
+		span{
+			display: inline-block;
+			vertical-align: middle;
+			@include rem-fallback(width, 4.8);
+			@include rem-fallback(height, 4.8);
+			overflow: hidden;
+		}
+		
+	}
+
+
+}
+#logo{
+	position: absolute;
+	@include rem-fallback(top,0);
+	@include rem-fallback(left,3);
+	@include rem-fallback(width,28);
+	@include rem-fallback(height,28);
+	}
+
+
+
+
+#menu{
+	@include rem-fallback(width,22);
+	height: auto;
+	position:absolute;
+	@include rem-fallback(left,5);
+	@include rem-fallback(top,34);
+	-webkit-border-radius: 14px/21px;
+	-moz-border-radius: 14px/21px;
+	border-radius: 14px/21px;
+	background-color: #d2d2d2;
+	-webkit-box-shadow: inset 0 0 33px 2px rgba(255,255,190,.75);
+	-moz-box-shadow: inset 0 0 33px 2px rgba(255,255,190,.75);
+	box-shadow: inset 0 0 33px 2px rgba(255,255,190,.75);
+	border: solid 1px #dadada;
+	ul{
+		width:100%;
+		height: 100%;
+	}
+	li{
+		width: 100%;
+		
+		@include rem-fallback(padding, 0, 1.5);
+		&:last-child{
+			a{
+				border-bottom: none;	
+			}
+		}
+		&:hover{
+			a{
+			background-color: #575756;
+			-webkit-box-shadow: inset 0 0 18px 3px rgba(255,255,190,.28);
+			-moz-box-shadow: inset 0 0 18px 3px rgba(255,255,190,.28);
+			box-shadow: inset 0 0 18px 3px rgba(255,255,190,.28);
+			border: solid 1px #dadada;
+			color:#E2E2E2;
+			-moz-transition: all 1s linear 0s;
+			-webkit-transition: all 1s linear 0s;
+			-o-transition: all 0.2s linear 0s;
+			-ms-transition: all 0.2s linear 0s;
+			transition: all 0.2s linear 0s;	
+			}
+		}
+		
+		a{
+			display: inline-block;
+			width: 100%;
+			border-bottom: 1px $color3 inset;
+			@include rem-fallback(height, 6);
+			font-family: $font-titular;
+			@include rem-fallback(font-size, 2);
+			color: $color3;
+			line-height: 60px;
+			white-space: nowrap;
+			p,span{
+				display: inline-block;
+			}
+			p{
+				text-align: left;
+			}
+			span{
+				position: absolute;
+				right: 0;
+				@include rem-fallback(margin, 0.5,0.5,0,0);
+				@include rem-fallback(width, 4.8);
+				@include rem-fallback(width, 4.8);
+				overflow: hidden;
+				vertical-align: middle;
+			}
+		}
+		a:hover{
+			
+
+		}
+
+	}
+
+}
+#container{
+	width: 100%;
+	height: auto;
+	@include rem-fallback(min-height, 100%);
+	position: relative;
+	@include rem-fallback(top, 24);
+	@include rem-fallback(left,27);
+	@include rem-fallback(padding, 10,5,0,10);//para ipad padding izq 50
+	@include rem-fallback(margin, 0,0,10,0);
+}
+#content{
+	height:auto;
+	@include rem-fallback(width, 65.4);
+	position: relative;
+}
+footer{
+	position: relative;
+	@include rem-fallback(margin-top, 26);
+	width: 100%;
+	@include rem-fallback(height, 3);
+	@include rem-fallback(font-size, 1.6);
+	background-color: $color1;
+	color: #FFFFFF;
+}
+//home
+.category{
+	@include rem-fallback(width, 65.4);
+	@include rem-fallback(height,36);
+	@include rem-fallback(margin-bottom,4);
+	border-bottom: 1px $color1 inset;
+	display: inline-block;
+	text-align: left;
+	white-space: nowrap;
+	position: relative;
+
+
+	article{
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		white-space:normal;
+		text-align: left;
+		@include rem-fallback(width, 37.4);
+		height: 100%;
+		p{
+			line-height: 1.3em;
+		}
+		span{
+			position: absolute;
+			display:block;
+			bottom: 0;
+			left: 50%;
+			@include rem-fallback(margin-left, -8.5);
+		}
+
+	}
+	article:hover{
+		color:$color2;
+	}
+	img{
+		display: inline-block;
+		vertical-align: top;
+		@include rem-fallback(width, 23);
+		@include rem-fallback(height, 32);
+		@include rem-fallback(margin, 0,5,0,0);
+	}
+}
+.category:hover{
+	color: $color2;
+}
+// template product
+//product
+
+.item_detail{
+	
+	width: 100%;
+	height: auto;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	overflow: hidden;
+	@include rem-fallback(margin,0,0,3,0);
+	div{
+		display: inline-block;
+		@include rem-fallback(width,47);
+		height: 100%;
+		background: $color1;
+		color: #FFFFFF;
+		vertical-align: top;
+		white-space: normal;
+		@include rem-fallback(padding,2);
+	}
+	img{
+		display: inline-block;
+		vertical-align: middle;
+		@include rem-fallback(margin-left, -5.6);
+		
+	}
+}
+// template category_a
+.section_wine{
+	h3{
+		width: 100%;
+		@include rem-fallback(height, 7);
+		border-bottom: 1px $color1 inset;
+		@include rem-fallback(line-height,5);
+		position: relative;
+		img{
+			position: absolute;
+			top:100%;
+			right: 0;
+			width: 35%;
+		}
+	}
+	.item_collection{
+		@include rem-fallback(width, 65.4);
+		height:auto;
+		display: inline-block;
+		@include rem-fallback(margin-bottom,4);
+		border-bottom: 1px $color1 inset;
+		text-align: left;
+		position: relative;
+		@include rem-fallback(padding,0,0,4,0);
+		@include rem-fallback(margin,0,0,4,0);
+		h5{
+			margin: 0;
+		}
+	}	
+	.item_single{
+		@include rem-fallback(width, 65.4);
+		height:auto;
+		display: inline-block;
+		@include rem-fallback(margin-bottom,4);
+		border-bottom: 1px $color1 inset;
+		text-align: left;
+		position: relative;
+		@include rem-fallback(padding,0,0,4,0);
+		@include rem-fallback(margin,0,0,4,0);
+		white-space: nowrap;
+
+		h5{
+			margin: 0;
+		}
+		div{
+			display: inline-block;
+			white-space: normal;
+			@include rem-fallback(width, 50);
+			p{
+			white-space: normal;
+			 &:last-child{
+			 	padding-bottom: 0;
+			 }
+			}
+		}
+		img{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+
+	}
+	.uds{
+		width: 100%;
+		height: auto;
+		white-space: nowrap;
+		text-align: center;
+		vertical-align: top;
+		div{
+			display:inline-block;
+			vertical-align: top;
+			width: 25%;
+			height: auto;
+			white-space: normal;
+			&.three{
+				width: 33%;
+			}
+			p{
+				@include rem-fallback(font-size, 1.5);
+				color: $color3;
+				text-align: center;
+				line-height: 1.2em;
+			}
+
+		}
+
+	}
+}
+.section_oil{
+	h3{
+		img{
+			position: absolute;
+			top: -44%;
+			left: 85%;
+			width: 22%;
+		}
+	}
+	.item_detail{
+
+
+	}
+}

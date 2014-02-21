@@ -1,0 +1,62 @@
+/*tamaño fuento body*/
+/*Font-Face*/
+@import 'fonts';
+html {font-size: 62.5%;}
+
+/*Mixins*/
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@mixin rem-fallback($property, $values...) {
+  $max: length($values);
+  $pxValues: '';
+  $remValues: '';
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $pxValues: #{$pxValues + $value*10}px;
+
+    @if $i < $max {
+      $pxValues: #{$pxValues + " "};
+    }
+  } 
+
+  @for $i from 1 through $max {
+    $value: strip-unit(nth($values, $i));
+    $remValues: #{$remValues + $value}rem;
+
+    @if $i < $max {
+      $remValues: #{$remValues + " "};
+    }
+  } 
+  
+  #{$property}: $pxValues; 
+  #{$property}: $remValues; 
+}
+/*Mixing para centrar con transform*/
+@mixin trans($value){
+  -webkit-transform:translateX($value);
+  -moz-transform:translateX($value);
+  transform:translateX($value);
+}
+
+/*Usar utilidades de compass*/
+@import "compass";
+@import "compass/css3";
+/* apply a natural box layout model to all elements 
+(if supporting <IE8, use a pollyfill: https://github.com/Schepp/box-sizing-polyfill ) */
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Normalizar estilo de todos los navegadores */
+@import 'normalize';
+/* reseteo */
+@import 'reset';
+
+/*interactividad scroll-top */
+/*guía de estilos, variables */
+@import 'style';
+/*Estructura*/
+@import 'template';
+@import 'mediaquery';

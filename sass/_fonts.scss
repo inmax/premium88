@@ -1,0 +1,36 @@
+/*typo de cuerpo de texto*/
+@font-face{ 
+	font-family: 'gentium-bold';
+	src: url('fonts/genbasb-webfont.eot');
+	src: url('fonts/genbasb-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/genbasb-webfont.woff') format('woff'),
+	     url('fonts/genbasb-webfont.ttf') format('truetype'),
+	     url('fonts/genbasb-webfont.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'gentium';
+	src: url('fonts/genbasr-webfont.eot');
+	src: url('fonts/genbasr-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/genbasr-webfont.woff') format('woff'),
+	     url('fonts/genbasr-webfont.ttf') format('truetype'),
+	     url('fonts/genbasr-webfont.svg#webfont') format('svg');
+}
+/*Typo para enfatizar */
+
+@font-face{ 
+	font-family: 'museo';
+	src: url('fonts/museo_slab_500_2-webfont.eot');
+	src: url('fonts/museo_slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/museo_slab_500_2-webfont.woff') format('woff'),
+	     url('fonts/museo_slab_500_2-webfont.ttf') format('truetype'),
+	     url('fonts/museo_slab_500_2-webfont.svg#webfont') format('svg');
+}
+/*Typo brand */
+@font-face{ 
+	font-family: 'arimo';
+	src: url('fonts/arimo-italic-webfont.eot');
+	src: url('fonts/arimo-italic-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/arimo-italic-webfont.woff') format('woff'),
+	     url('fonts/arimo-italic-webfont.ttf') format('truetype'),
+	     url('fonts/arimo-italic-webfont.svg#webfont') format('svg');
+}
