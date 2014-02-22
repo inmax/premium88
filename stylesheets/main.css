@@ -1242,6 +1242,49 @@ footer {
   color: #FFFFFF;
 }
 
+/* line 34, ../sass/_template_products.scss */
+.collection {
+  width: 100%;
+}
+/* line 36, ../sass/_template_products.scss */
+.collection ul {
+  overflow: hidden;
+}
+/* line 39, ../sass/_template_products.scss */
+.collection li {
+  width: 160px;
+  height: 235px;
+  float: left;
+  border: 1px solid #C6C6C5;
+  padding: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+/* line 48, ../sass/_template_products.scss */
+.collection li:hover {
+  border: 4px solid #C01113;
+}
+/* line 51, ../sass/_template_products.scss */
+.collection li img, .collection li a {
+  display: block;
+}
+/* line 54, ../sass/_template_products.scss */
+.collection li img {
+  max-height: 168px;
+  margin: 0 auto;
+}
+/* line 58, ../sass/_template_products.scss */
+.collection li.active {
+  border: 4px solid #C01113;
+}
+
+/* line 63, ../sass/_template_products.scss */
+.itemInfo {
+  display: none;
+}
+
 /* line 3, ../sass/_template_category.scss */
 .section_wine h3 {
   width: 100%;
