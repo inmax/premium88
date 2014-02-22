@@ -1,0 +1,33 @@
+// template product
+//product
+
+.item_detail{
+	
+	width: 100%;
+	height: auto;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	@include rem-fallback(margin,0,0,3,0);
+	color:#FFFFFF;
+	div{
+		display: inline-block;
+		@include rem-fallback(width,47);
+		height: 100%;
+		background: $color1;
+		color: #FFFFFF;
+		vertical-align: top;
+		white-space: normal;
+		@include rem-fallback(padding,2);
+	}
+	img{
+		display: inline-block;
+		vertical-align: middle;
+		@include rem-fallback(margin-left, -5.6);
+		
+	}
+	h5{
+		margin: 0;
+		color:#FFFFFF;
+	}
+}

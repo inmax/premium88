@@ -6,6 +6,7 @@
 <title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
+<script src="script/html5.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
             
             <div id="content">
                 
-                <a href="#"class="category oil P30 PBot">
+                <a href="olive-oil.php"class="category oil P30 PBot">
                     <img src="images/olive-oil.jpg" title="olive oil" width="230" height="320" alt="olive oil"/>
                     <article class="cuerpo_a">
                         
@@ -32,7 +33,7 @@
                     </article>
                 </a>
 
-                <a href="#"class="category wine P30 PBot">
+                <a href="wine-liquor.php"class="category wine P30 PBot">
                     <img src="images/wine-liquor.jpg" title="Wine & liquor" width="230" height="320" alt="Wine & liquor"/>
                     <article class="cuerpo_a">
                         
@@ -66,7 +67,7 @@
                         </span>    
                     </article>
                  </a> -->
-                <a href="#"class="category gourmet P30 PBot">
+                <a href="gourmet.php"class="category gourmet P30 PBot">
                     <img src="" title="Gourmet Food"/>
                     <article class="cuerpo_a">
                         
@@ -82,7 +83,7 @@
                         </span>    
                     </article>
                 </a>
-                <a href="#"class="category cosmetics P30 PBot">
+                <a href="cosmetics.php"class="category cosmetics P30 PBot">
                     <img src="images/cosmetics.jpg" width="230" height="320" title="Cosmetics"/>
                     <article class="cuerpo_a">
                         

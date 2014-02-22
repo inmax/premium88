@@ -6,6 +6,7 @@
 <title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
+<script src="script/html5.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -13,103 +14,63 @@
         <?php include("includes/header.php");?>
         <section id="container">
             
-            <div id="content" class="section_wine">
+            <div id="content" class="section_wine section_cosmetic cuerpo_b">
                 <h3 class="titulos-section M40 MBot">
-                    Wine & Liquor
+                    Millenary Olive Oil Cosmetics
                     <span>
-                        <img src="images/uvas.png"/>
+                        <img src="images/olives.png"/>
                     </span>
                 </h3>
-                <!--Item -->
-                   
-
-                    <article class="cuerpo_b P30 PBot item_single">
-                        <img src="images/orange-wine.jpg"/>
-                        <div>
-                            <h4 class="titulos-c P30 PBot">
-                                ORANGE TREE WINE
-                            </h4>
-                            <p class="P30 PBot letra_capital">
-                                Orange Tree wine is a unique product made with Seville Ecological Appellation orange peels. This wine is obtained through a maceration process under the supervision of seven winemakers who exclusively work towards achieving the highest quality, thus making this wine an exclusive product in the world of wines due to its aging in oak barrels for over 10 years.
-                            </p>
-                            <p class="P30 PBot">
-                                Awards </br>
-                                La Nariz de Oro (Golden Nose) finalist in 2012, one of the most prestigious wine awards in Spain.
-                            </p>
-                        </div>
-
-                    </article>
-
-                    <article class="cuerpo_b P30 PBot item_single">
-                        <img src="images/brandy_caramel_thumb.jpg" height="309" width="155"/>
-                        <div>
-                            <h4 class="titulos-c P30 PBot">
-                                CARAMEL BRANDY - BC
-                            </h4>
-                            <h5 class="titulos-d P30 PBot">
-                                BC Caramel Brandy "The First" is the prime Caramelized Brandy in the world.
-                            </h5>
-                            <p class="P30 PBot letra_capital">
-                                The Caramel Brandy is obtained thanks to a careful process where a selection of spirit wines from our own vineyards are blended with roasted caramelized sugar handcrafted in traditional pots and aged by a dynamic system of brewing boots and American oak.
-                            </p>
-                            <p class="P30 PBot">
-                                Aged in oak barrels for 3 years, and previously soaked in wine for 5 years with dry and sweet Oloroso and Pedro Ximenez wines
-                            </p>
-                        </div>
-
-                    </article>
-
-                    <article class="cuerpo_b P30 PBot item_single">
-                        <img src="images/golden-boot-pedro-ximenez-cream_thumb.jpg" height="300" width="155"/>
-                        <div>
-                            <h4 class="titulos-c P30 PBot">
-                               GOLDEN BOOT CREAM WINE
-                            </h4>
-                            <h5 class="titulos-d P30 PBot">
-                                LIMITED PRODUCTION
-                            </h5>
-                            <p class="P30 PBot letra_capital">
-                                The Golden Boot Cream Wine is a generous wine brewed by mixing “oloroso” wines with an important contribution of sweet wine Pedro Ximenez.
-                            </p>
-                            <p class="P30 PBot">
-                            </p>
-                        </div>
-
-                    </article>
-                    <article class="cuerpo_b P30 PBot item_single">
-                        <img src="images/golden-boot-pedro-ximenez-fine_thumb.jpg" height="300" width="155"/>
-                        <div>
-                            <h4 class="titulos-c P30 PBot">
-                               GOLDEN BOOT FINE WINE
-                            </h4>
-                            <h5 class="titulos-d P30 PBot">
-                                LIMITED PRODUCTION
-                            </h5>
-                            <p class="P30 PBot letra_capital">
-                                The Golden Boot Fine Wine is obtained from the total fermentation of the “palomino” grape variety. The development and protection of natural yeasts prevents oxidation of the wine throughout their upbringing and it gives this unique wine its very special characteristics. The biological aging continues for a minimum period of three years and is done in American oak casks using the traditional “solera” system of hatcheries.
-                            </p>
-                        </div>
-
-                    </article>
-                    <article class="cuerpo_b P30 PBot item_single">
-                        <img src="images/golden-boot-pedro-ximenez-limited_thumb.jpg" height="300" width="155"/>
-                        <div>
-                            <h4 class="titulos-c P30 PBot">
-                               GOLDEN BOOT PEDRO XIMÉNEZ
-                            </h4>
-                            <h5 class="titulos-d P30 PBot">
-                                LIMITED PRODUCTION
-                            </h5>
-                            <p class="P30 PBot letra_capital">
-                                Our Pedro Ximenez is obtained from the grape with the same name, it is made under the “soleo” traditional method to raisin the grape. The pressing of the grapes yields a special concentration of sugar and its brewing process with its unique oxidative character enables a progressive concentration of aromas with an increasingly complexity while it never loses its freshness and fruity typical variety.
-                            </p>
-                        </div>
-
-                    </article>
-
-
-
                 
+                <article class="item_detail">
+                    <img src="images/cervol-milenario-500-ml.jpg" height="410" width="310"/>
+                    <div class="cuerpo_c">
+                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        SERUM FACIAL
+                        </h4>
+                        <p class="P15 PBot">
+                            Intensive anti-aging treatment, it tenses and repairs the skin, filling the wrinkles from within. It has a really strong moisturizing effect that fights against the signs of aging. It also has a remarkable firming effect, promoting elasticity and skin tone. It’s the best way to reduce wrinkles and expression lines. Specially recommended for mature skins.
+                        </p>
+                        <p class="P15 PBot">
+                        You will be enjyoing a jewel of nature, and a gourmet oil of the highest quality.
+                        </p>
+                        <p class="P15 PBot">
+                        This is a sample of our 500 ml bottle
+                        </p>    
+                    </div>
+                </article>
+                
+                <h4 class="titulos-b P30 PBot">
+                    “From olive oil to eternity”
+                </h4>
+
+                <p class="P30 PBot letra_capital ">
+                    This slogan summarizes quite well the spirit of our high quality cosmetics, made will olive oil extracted from olives from millenary olive trees.
+                </p>
+                <p class="P30 PBot">
+                    Olive oil has been used for cosmetic purposes since the ancient Egyptians, five thousand years ago, began to discover its amazing properties:
+                </p>
+
+                <h5 class="titulos-d P15 PBot">
+                    Anti-inflammatory Properties
+                </h5>
+                <p class="P30 PBot ">
+                    There are a variety of antioxidants in olive oil including Vitamin A and E but the most potent compound is hydroxytyrosol. Hydroxytyrosol is a very rare but potent antioxidant found in olive oil that prevents free radical damage on skin cells. This compound also absorbs deeply into the skin and is suitable for all skin types. For this reason, olive oil has very potent anti-inflammatory properties and is used in a variety of products.
+                </p>
+                <h5 class="titulos-d P15 PBot">
+                    Moisturizing Properties
+                </h5>
+                <p class="P30 PBot">
+                    As explained earlier, olive oil is abundant in antioxidants. These antioxidants work really well as moisturizers. One of the main reasons why olive oil works really well as a moisturizer is the hydrophilic properties of these antioxidants which allow it to form a protective barrier trapping moisture on your skin. Lots of skin products used various synthetic chemical that do moisturizer but they clog your pores and are carcinogenic in some cases. For this reason, olive oil can be applied on your face. In addition to that, its deep penetrating properties not only moisturize your skin but also help brighten your skin.
+                </p>
+                <h5 class="titulos-d P15 PBot">
+                    Skin Exfoliator
+                </h5>
+                <p class="P30 PBot">
+                    Exfoliating skin helps remove clogged pores and dead skin cells. But why use olive oil? One of the main reasons is because it does not clog pores. The other reason is because it smoothens your skin texture and softens your skin due to its intrinsic antioxidant properties.
+                </p>
+                
+
             </div><!--div contet -->
             
         </section><!--div container -->
