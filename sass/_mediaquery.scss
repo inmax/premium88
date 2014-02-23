@@ -1,0 +1,6 @@
+@media only screen and (min-width:1025px){ 
+	#container{
+				@include rem-fallback(padding, 10,5,0,37);		
+	}
+
+}

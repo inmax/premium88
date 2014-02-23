@@ -4,14 +4,16 @@
 .item_detail{
 	
 	width: 100%;
-	height: auto;
+	@include rem-fallback(height,45);
 	text-align: left;
 	vertical-align: top;
 	white-space: nowrap;
 	@include rem-fallback(margin,0,0,3,0);
 	color:#FFFFFF;
+	overflow: hidden;
 	div{
 		display: inline-block;
+		overflow-y: scroll;
 		@include rem-fallback(width,47);
 		height: 100%;
 		background: $color1;
@@ -23,8 +25,6 @@
 	img{
 		display: inline-block;
 		vertical-align: middle;
-		@include rem-fallback(margin-left, -5.6);
-		
 	}
 	h5{
 		margin: 0;
@@ -38,7 +38,7 @@
 	}
 	li{
 		width: 160px;
-		height: 235px;
+		height: 230px;
 		float: left;
 		border: 1px solid #C6C6C5;
 		@include rem-fallback(padding, 1);
@@ -58,8 +58,92 @@
 		&.active {
 			border: 4px solid #C01113;
 		}
+		a{
+				@include rem-fallback(font-size, 1.5);
+				color: $color3;
+				text-align: center;
+				line-height: 1.2em;
+		}
+		p{
+			a{
+				text-decoration: overline;
+			}
+		}
 	}
+
 }
 .itemInfo {
 	display: none;
+}
+.list{
+	width: 100%;
+	height: auto;
+	@include rem-fallback(padding,2.5);
+	@include rem-fallback(margin-bottom, 5);
+	background-color: #F2F7FC;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #CBD9E4;
+	color:$color3;
+	li{
+		width: inherit;
+		height: inherit;
+		@include rem-fallback(padding,0,0,2.5,0);
+		display: inline-block;
+	}
+	li:first-line{
+		text-decoration: underline;
+		@include rem-fallback(font-size,1.8);
+		font-family: 'gentium-bold';
+		@include rem-fallback(padding-bottom, 1);
+	}
+}
+.product_single{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	vertical-align: top;
+	white-space: nowrap;
+	@include rem-fallback(margin,0,0,3,0);
+	color:#FFFFFF;
+	.legend{
+		display: inline-block;
+		@include rem-fallback(width,47);
+		@include rem-fallback(height,45);
+		background: $color1;
+		color: #FFFFFF;
+		vertical-align: top;
+		white-space: normal;
+		@include rem-fallback(padding,2);
+		overflow-y:scroll;
+	}
+	h5{
+		margin: 0;
+		color:#FFFFFF;
+	}
+	.img_product{
+		display: inline-block;
+		vertical-align: middle;
+		@include rem-fallback(width,18.4);
+		height: 100%;
+		overflow: hidden;
+		position:relative;
+		img{
+			width: 100%;
+			display: block;
+			margin: 0 auto;
+			margin-left: -16%;
+		}
+	}
+}
+.section_cosmectics{
+	.item_detail{
+		div{
+		@include rem-fallback(width,40);
+		}
+		img{
+			@include rem-fallback(width,25.4);
+		}
+	}
 }

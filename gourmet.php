@@ -26,10 +26,10 @@
                         <a href="bisquini.php">
                             <img src="images/bisquini_thumb.jpg" height="300" width="155">
                             <div>
-                                <h4 class="titulos-c P30 PBot">
+                                <h4 class="titulos-c P15 PBot">
                                     BISQUINI DANISH COOKIES 
                                 </h4>
-                                <p class="P30 PBot letra_capital">
+                                <p class="P15 PBot letra_capital">
                                 Butter Cookies are an old tradition from Denmark. The first cookies that we know of were made around year 1100. From late 1800’s, most Danish homes were equipped with stoves so everyone could make their own cookies easier. The first bakeries were started late 1800’s, later approximately 10 bakeries with more sophisticated facilities were established.
                                  </p>  
                             </div>
@@ -37,7 +37,7 @@
 
                     </article>
 
-                    <article class="cuerpo_b P30 PBot item_single">
+                    <article class="cuerpo_b P15 PBot item_single">
                         <a href="saffron-karkom.php">
                         <img src="images/saffron_thumb.jpg" height="300" width="155"/>
                             <div>
@@ -54,7 +54,7 @@
                         </a>
                     </article>
 
-                    <article class="cuerpo_b P30 PBot item_collection">
+                    <article class="cuerpo_b P15 PBot item_collection">
                         <a href="don-bocarte.php">
                         
                             <h4 class="titulos-c P30 PBot">

@@ -22,53 +22,52 @@
                     </span>
                 </h3>
                 <!--Item -->
-                    <article class="cuerpo_b P30 PBot item_collection">
-                        
-                        <h4 class="titulos-c P30 PBot">
-                            TRIVIUM COLLECTION
-                        </h4>
-                        <h5 class="titulos-d P30 PBot">
-                            A jewel inside, a jewel outside.
-                        </h5>
-                        <p class="P30 PBot letra_capital">
-                            This is our slogan and soon you will understand why.
-                        </p>
-                        <p class="P30 PBot">
-                            Unique, very limited release products, carrying their own individual seal and exclusively offered to the most passionate enthusiasts of all that is refined and exquisite. Nurtured and treasured over years, we have captured the essence of these lands in a tiny number of bottles for Trivium Collection. These are rare, one-off jewels signed by their author, Francisco Gómez.
-                        </p>
-                        <p class="P30 PBot">
-                            The Trivium Collection philosophy is a fusion of the convictions that have made it unique: total passion in our work, loving care for the natural environment to create unique works of art. Commitment to a 1,000 year old olive-growing culture. Outstanding vintages in specially adorned bottles with exclusive materials and designs. The desire to share our love for all that is sublime.
-                        </p>
-                        <div class="uds">
-                            <div> 
-                                <img src="images/trivium-white-edition_thumb.png" height="320" width="160">
-                                <p>
-                                    GOLD EDITION WINE
-                                <p/>
+                    <article class="cuerpo_b P15 PBot item_collection">
+                        <a href="trivium-collection.php">
+                            
+                            <h4 class="titulos-c P30 PBot">
+                                TRIVIUM COLLECTION
+                            </h4>
+                            <h5 class="titulos-d P30 PBot">
+                                A jewel inside, a jewel outside.
+                            </h5>
+                            <p class="P30 PBot letra_capital">
+                                This is our slogan and soon you will understand why.
+                            </p>
+                            <p class="P30 PBot">
+                                Unique, very limited release products, carrying their own individual seal and exclusively offered to the most passionate enthusiasts of all that is refined and exquisite. Nurtured and treasured over years, we have captured the essence of these lands in a tiny number of bottles for Trivium Collection. These are rare, one-off jewels signed by their author, Francisco Gómez.
+                            </p>
+                            <div class="uds">
+                                <div> 
+                                    <img src="images/trivium-white-edition_thumb.png" height="320" width="160">
+                                    <p>
+                                        GOLD EDITION WINE
+                                    <p/>
+                                </div>
+                                <div> 
+                                    <img src="images/trivium-balck-edition_thumb.png" height="320" width="160"/>
+                                    <p>
+                                        GOLD EDITION WINE
+                                    <p/>
+                                </div>
+                                <div> 
+                                    <img src="images/trivium-quo-vadis_thum.png" height="320" width="159"/>
+                                    <p>
+                                        QUO VADIS FONDILLÓN SOLERA 1972 WINE
+                                    <p/>
+                                </div>
+                                <div> 
+                                    <img src="images/trivium-king-of-kings_thumb.jpg" height="319" width="164"/>
+                                    <p>
+                                        KING OF KINGS
+                                    <p/>
+                                </div>
+                               
                             </div>
-                            <div> 
-                                <img src="images/trivium-balck-edition_thumb.png" height="320" width="160"/>
-                                <p>
-                                    GOLD EDITION WINE
-                                <p/>
-                            </div>
-                            <div> 
-                                <img src="images/trivium-quo-vadis_thum.png" height="320" width="159"/>
-                                <p>
-                                    QUO VADIS FONDILLÓN SOLERA 1972 WINE
-                                <p/>
-                            </div>
-                            <div> 
-                                <img src="images/trivium-king-of-kings_thumb.jpg" height="319" width="164"/>
-                                <p>
-                                    KING OF KINGS
-                                <p/>
-                            </div>
-                           
-                        </div>  
+                        </a>  
                     </article>
 
-                    <article class="cuerpo_b P30 PBot item_single">
+                    <article class="cuerpo_b P15 PBot item_single">
                         <a href="orange-tree-wine.php">
                             <img src="images/orange-wine.jpg"/>
                             <div>
@@ -87,44 +86,39 @@
 
                     </article>
 
-                    <article class="cuerpo_b P30 PBot item_collection ">
-                        
-                        <h4 class="titulos-c P30 PBot">
-                            RIOJA WINES – PECIÑA WINEMAKERS
-                        </h4>
-                        <p class="P30 PBot letra_capital">
-                            Wine is one of the mainstays of the Mediterranean Culture and Rioja wines are one of the best known around the world thanks to its unique and prestigious “Qualified Denomination of Origin”.
-                        </p>
-                        <p class="P30 PBot">
-                            The first document to make reference to protecting and ensuring the quality of Rioja wines dates from 1650 but even before in 1102, King Sancho legally recognized our prestigious wines.
-                        </p>
-                        <p class="P30 PBot">
-                            After several centuries, during which the "Rioja" Designation of Origin always endeavoured to ensure quality and maintain controls at point of origin, its efforts finally received their due recognition.
-                        </p>
-                        <div class="uds">
-                            <div class="three"> 
-                                <img src="images/senorio-pecina-cosecha_thumb.jpg" height="364" width="216">
-                                <p>
-                                   SEÑORÍO DE P.PECIÑA COSECHA
-                                <p/>
-                            </div>
-                            <div class="three"> 
-                                <img src="images/senoria-pecina-crianza_thumb.jpg" height="364" width="211">
-                                <p>
-                                    SEÑORÍO DE P.PECIÑA CRIANZA
-                                <p/>
-                            </div>
-                            <div class="three"> 
-                                <img src="images/senoria-pecina-reserva_thumb.jpg" height="364" width="218"/>
-                                <p>
-                                    SEÑORÍO DE P.PECIÑA RESERVA
-                                <p/>
-                            </div>
-                           
-                        </div>  
+                    <article class="cuerpo_b P15 PBot item_collection ">
+                        <a href="senorio-pecina.php">
+                            <h4 class="titulos-c P30 PBot">
+                                RIOJA WINES – PECIÑA WINEMAKERS
+                            </h4>
+                            <p class="P30 PBot letra_capital">
+                                Wine is one of the mainstays of the Mediterranean Culture and Rioja wines are one of the best known around the world thanks to its unique and prestigious “Qualified Denomination of Origin”.
+                            </p>
+                            <div class="uds">
+                                <div class="three"> 
+                                    <img src="images/senorio-pecina-cosecha_thumb.jpg"/>
+                                    <p>
+                                       SEÑORÍO DE P.PECIÑA COSECHA
+                                    <p/>
+                                </div>
+                                <div class="three"> 
+                                    <img src="images/senoria-pecina-crianza_thumb.jpg"/>
+                                    <p>
+                                        SEÑORÍO DE P.PECIÑA CRIANZA
+                                    <p/>
+                                </div>
+                                <div class="three"> 
+                                    <img src="images/senoria-pecina-reserva_thumb.jpg"/>
+                                    <p>
+                                        SEÑORÍO DE P.PECIÑA RESERVA
+                                    <p/>
+                                </div>
+                               
+                            </div> 
+                        </a> 
                     </article>
 
-                    <article class="cuerpo_b P30 PBot item_single">
+                    <article class="cuerpo_b P15 PBot item_single">
                             <a href="caramel-brandy.php">
                                 <img src="images/brandy_caramel_thumb.jpg" height="309" width="155"/>
                                 <div>
@@ -145,7 +139,7 @@
 
                     </article>
 
-                    <article class="cuerpo_b P30 PBot item_single">
+                    <article class="cuerpo_b P15 PBot item_single">
                         <a href="golden-boot-cream-wine.php">
                             <img src="images/golden-boot-pedro-ximenez-cream_thumb.jpg" height="300" width="155"/>
                             <div>
@@ -164,7 +158,7 @@
                         </a>
 
                     </article>
-                    <article class="cuerpo_b P30 PBot item_single">
+                    <article class="cuerpo_b P15 PBot item_single">
                         <a href="golden-boot-fine-wine.php">
                             <img src="images/golden-boot-pedro-ximenez-fine_thumb.jpg" height="300" width="155"/>
                             <div>
@@ -180,7 +174,7 @@
                             </div>
                         </a>
                     </article>
-                    <article class="cuerpo_b P30 PBot item_single">
+                    <article class="cuerpo_b P15 PBot item_single">
                         <a href="golden-boot-pedro-ximenez.php">
                             <img src="images/golden-boot-pedro-ximenez-limited_thumb.jpg" height="300" width="155"/>
                             <div>

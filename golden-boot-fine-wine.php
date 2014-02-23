@@ -28,9 +28,11 @@
                     The Golden Boot Fine Wine is obtained from the total fermentation of the “palomino” grape variety. The development and protection of natural yeasts prevents oxidation of the wine throughout their upbringing and it gives this unique wine its very special characteristics. The biological aging continues for a minimum period of three years and is done in American casks using the traditional “solera” system of hatcheries.
                 </p>
 
-                <article class="item_detail">
-                    <img src="images/golden-boot-pedro-ximenez-fine.jpg" height="550" width="238"/>
-                    <div class="cuerpo_c">
+                <article class="product_single">
+                    <div class="img_product">
+                        <img src="images/golden-boot-pedro-ximenez-fine.jpg" height="550" width="238"/>
+                    </div>
+                    <div class="cuerpo_c legend">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         GOLDEN BOOT FINE WINE
                         </h4>

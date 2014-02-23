@@ -28,9 +28,11 @@
                     Our Pedro Ximenez is obtained from the grape with the same name, it is made under the “soleo” traditional method to raisin the grape. The pressing of the grapes yields a special concentration of sugar and its brewing process with its unique oxidative character enables a progressive concentration of aromas with an increasingly complexity while it never loses its freshness and fruity typical variety.
                 </p>
 
-                <article class="item_detail">
-                    <img src="images/golden-boot-pedro-ximenez-limited.jpg" height="550" width="238"/>
-                    <div class="cuerpo_b">
+                <article class="product_single">
+                    <div class="img_product">
+                        <img src="images/golden-boot-pedro-ximenez-limited.jpg" height="550" width="238"/>
+                    </div>
+                    <div class="cuerpo_b legend">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         GOLDEN BOOT FINE WINE
                         </h4>

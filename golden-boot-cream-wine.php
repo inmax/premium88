@@ -27,9 +27,11 @@
                 <p class="P30 PBot letra_capital" style="width:85%">
                     The Golden Boot Cream Wine is a generous wine brewed by mixing “oloroso” wines with an important contribution of sweet wine Pedro Ximenez.
                 </p>
-                <article class="item_detail">
-                    <img src="images/golden-boot-pedro-ximenez-cream.jpg" height="550" width="238"/>
-                    <div class="cuerpo_c">
+                <article class="product_single">
+                    <div class="img_product">
+                        <img src="images/golden-boot-pedro-ximenez-cream.jpg" height="550" width="238"/>
+                    </div>
+                    <div class="cuerpo_c legend">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         GOLDEN BOOT CREAM WINE
                         </h4>

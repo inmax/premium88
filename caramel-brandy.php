@@ -27,9 +27,11 @@
                 <p class="P30 PBot letra_capital" style="width:85%">
                     The Caramel Brandy is obtained thanks to a careful process where a selection of spirit wines from our own vineyards are blended with roasted caramelized sugar handcrafted in traditional pots and aged by a dynamic system of brewing boots and American oak.
                 </p>
-                <article class="item_detail">
-                    <img src="images/brandy_caramel.jpg" height="550" width="238"/>
-                    <div class="cuerpo_c">
+                <article class="product_single">
+                    <div class="img_product">
+                        <img src="images/brandy_caramel.jpg" height="550" width="238"/>
+                    </div>
+                    <div class="cuerpo_c legend">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         CARAMEL BRANDY - BC
                         </h4>

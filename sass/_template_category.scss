@@ -10,8 +10,11 @@
 			position: absolute;
 			top:100%;
 			right: 0;
-			width: 35%;
+			width: 25%;
 		}
+	}
+	h5{
+		margin: 0;
 	}
 	.item_collection{
 		@include rem-fallback(width, 65.4);
@@ -57,9 +60,8 @@
 			display: inline-block;
 			vertical-align: top;
 		}
-
-
 	}
+
 	.uds{
 		width: 100%;
 		height: auto;
@@ -86,6 +88,7 @@
 			}
 
 		}
+
 
 	}
 }

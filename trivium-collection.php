@@ -7,7 +7,6 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
-<script src="script/html5.js" type="text/javascript"></script>
 <script src="script/jquery.js" type="text/javascript"></script>
 <script src="script/main.js" type="text/javascript"></script>
 </head>
@@ -17,19 +16,24 @@
         <?php include("includes/header.php");?>
         <section id="container">
             
-            <div id="content" class="section_wine section_cosmetic cuerpo_b">
+            <div id="content" class="section_wine cuerpo_b">
                 <h3 class="titulos-section M40 MBot">
-                    Millenary Olive Oil Cosmetics
+                    Wine & Liquor
                     <span>
-                        <img src="images/olives.png"/>
+                        <img src="images/uvas.png"/>
                     </span>
                 </h3>
-                <h4 class="titulos-b P30 PBot">
-                    “From olive oil to eternity”
+                <h4 class="titulos-c P30 PBot">
+                    TRIVIUM COLLECTION
                 </h4>
-
-                <p class="P30 PBot letra_capital ">
-                    This slogan summarizes quite well the spirit of our high quality cosmetics, made will olive oil extracted from olives from millenary olive trees.
+                <h5 class="titulos-d P30 PBot">
+                    A jewel inside, a jewel outside
+                </h5>
+                <p class="P30 PBot">
+                    Unique, very limited release products, carrying their own individual seal and exclusively offered to the most passionate enthusiasts of all that is refined and exquisite. Nurtured and treasured over years, we have captured the essence of these lands in a tiny number of bottles for Trivium Collection. These are rare, one-off jewels signed by their author, Francisco Gómez.
+                </p>
+                <p class="P30 PBot">
+                    The Trivium Collection philosophy is a fusion of the convictions that have made it unique: total passion in our work, loving care for the natural environment to create unique works of art. Commitment to a 1,000 year old olive-growing culture. Outstanding vintages in specially adorned bottles with exclusive materials and designs. The desire to share our love for all that is sublime.
                 </p>
                 <article class="item_detail">
                     <img src="images/golden-edition-wine.jpg" height="450" width="184"/>
@@ -55,11 +59,11 @@
                             
                     </div>
                 </article>
-                <div class="collection P30 PBot">
+                <div class="collection">
                     <ul>
                         <li id="it1">
-                            <img src="images/facial-serum_thumb.jpg"/>
-                            <a href="#">FACIAL SERUM</a>
+                            <img src="images/trivium-white-edition_thumb.png">
+                            <a href="#">GOLD EDITION WINE</a>
                         </li>
                         <li id="it2">
                             <img src="images/trivium-balck-edition_thumb.png"/>
@@ -75,57 +79,30 @@
                         </li>
                     </ul>
                 </div>
-                <p class="P30 PBot">
-                    Olive oil has been used for cosmetic purposes since the ancient Egyptians, five thousand years ago, began to discover its amazing properties:
-                </p>
-
-                <h5 class="titulos-d P15 PBot">
-                    Anti-inflammatory Properties
-                </h5>
-                <p class="P30 PBot ">
-                    There are a variety of antioxidants in olive oil including Vitamin A and E but the most potent compound is hydroxytyrosol. Hydroxytyrosol is a very rare but potent antioxidant found in olive oil that prevents free radical damage on skin cells. This compound also absorbs deeply into the skin and is suitable for all skin types. For this reason, olive oil has very potent anti-inflammatory properties and is used in a variety of products.
-                </p>
-                <h5 class="titulos-d P15 PBot">
-                    Moisturizing Properties
-                </h5>
-                <p class="P30 PBot">
-                    As explained earlier, olive oil is abundant in antioxidants. These antioxidants work really well as moisturizers. One of the main reasons why olive oil works really well as a moisturizer is the hydrophilic properties of these antioxidants which allow it to form a protective barrier trapping moisture on your skin. Lots of skin products used various synthetic chemical that do moisturizer but they clog your pores and are carcinogenic in some cases. For this reason, olive oil can be applied on your face. In addition to that, its deep penetrating properties not only moisturize your skin but also help brighten your skin.
-                </p>
-                <h5 class="titulos-d P15 PBot">
-                    Skin Exfoliator
-                </h5>
-                <p class="P30 PBot">
-                    Exfoliating skin helps remove clogged pores and dead skin cells. But why use olive oil? One of the main reasons is because it does not clog pores. The other reason is because it smoothens your skin texture and softens your skin due to its intrinsic antioxidant properties.
-                </p>
-                
-
             </div><!--div contet -->
             
         </section><!--div container -->
-
-        <div id="item_it1" class="itemInfo">
-                    <img src="images/facial-serum_thumb.jpg" height="200" width="130"/>
+        
+            <div id="item_it1" class="itemInfo">
+                    <img src="images/golden-edition-wine.jpg" height="450" width="184"/>
                     <div class="cuerpo_c">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
-                            FACIAL SERUM
+                        GOLD EDITION WINE
                         </h4>
-                        <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
-                            Moisturizing, anti-wrinkle, and firming
-                        </h5>
                         <p class="P15 PBot">
-                            Intensive anti-aging treatment, it tenses and repairs the skin, filling the wrinkles from   within. It has a really strong moisturizing effect that fights against the signs of aging. It   also has a remarkable firming effect, promoting elasticity and skin tone. It’s the best way to  reduce wrinkles and expression lines. Specially recommended for mature skins.
+                            This exuberant and delicate luxury is made with skilled craftsmanship and with the greatest respect for our natural environment. The result is a unique and most refined product. Enjoy this authentic, elegant jewel and make any moment a very special occasion.
                         </p>
                         <p class="P15 PBot">
-                            It also includes snake venom peptide, the most innovative anti-wrinkle and anti-aging   treatment.
+                            Hand-crafted after meticulous sorting of our exquisite Sauvignon Blanc grapes and then embellished with sparkles of edible glamorous gold.
                         </p>
                         <p class="P15 PBot">
-                            Active principles: 
+                            Gold is the most well known symbol of luck, prosperity and fortune. It doesn´t react with oxygen, so it doesn’t rust. It’s meant to last forever.
                         </p>
                         <p class="P15 PBot">
-                            Millenary extra-virgin olive oil, snake venom peptide, collagen, Porphyridium cruentum  algae, vegetable placenta, elastine, coenzime Q10, vitamines A and E.
+                            What would be better to celebrate a good deal than opening a bottle like this? You would be serving your guest an excellent wine, also you would be rewarding him with a powerful symbol of luck and luxury.
                         </p>
                         <p class="P15 PBot">
-                            Apply twice a day during twenty days. Repeat treatment every three months.
+                            Need a fancy drink for a special romantic moment? Can you imagine something more appropriate than our Golden Edition Wine?
                         </p>        
                     </div>
         </div>
@@ -184,7 +161,6 @@
                 </p>     
             </div>
         </div>
-
         <?php include("includes/footer.php");?>
     </div><!--div wrap -->
     

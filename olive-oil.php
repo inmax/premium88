@@ -23,9 +23,11 @@
                 </h3>
 
                 
-                <article class="item_detail">
+                <article class="product_single">
+                    <div class="img_product">
                     <img src="images/cervol-milenario-500-ml.jpg" height="410" width="310"/>
-                    <div class="cuerpo_c">
+                    </div>
+                    <div class="cuerpo_c legend">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         CERVOL
                         </h4>

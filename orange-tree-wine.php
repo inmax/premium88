@@ -27,9 +27,11 @@
                 <p class="P30 PBot letra_capital" style="width:85%">
                     Orange Tree wine is a unique product made with Seville Ecological Appellation orange peels. This wine is obtained through a maceration process under the supervision of seven winemakers who exclusively work towards achieving the highest quality, thus making this wine an exclusive product in the world of wines due to its aging in oak barrels for over 10 years.
                 </p>
-                <article class="item_detail">
-                    <img src="images/orange-wine-b.jpg"/>
-                    <div class="cuerpo_c">
+                <article class="product_single">
+                    <div class="img_product">
+                        <img src="images/orange-wine-b.jpg"/>
+                    </div>
+                    <div class="cuerpo_c legend">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         ORANGE TREE WINE
                         </h4>
