@@ -16,7 +16,16 @@
     <div id="wrap">
         <?php include("includes/header.php");?>
         <section id="container">
-            
+            <div class="miga">
+                <ul>
+                    <li>
+                        <a href="index.php">Premium 88 / </a>
+                    </li>
+                    <li>
+                        <a href="cosmetics.php"> Cosmetics</a>
+                    </li>
+                </ul>
+            </div>
             <div id="content" class="section_wine section_cosmetic cuerpo_b">
                 <h3 class="titulos-section M50 MBot">
                     Millenary Olive Oil Cosmetics

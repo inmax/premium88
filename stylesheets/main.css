@@ -1261,6 +1261,35 @@ footer {
   margin: 0rem 5rem 0rem 0rem;
 }
 
+/*__________Migas de pan*/
+/* line 566, ../sass/_template.scss */
+.miga {
+  display: block;
+  overflow: hidden;
+  margin: 20px 0px;
+  margin: 2rem 0rem;
+  position: absolute;
+  top: 0;
+}
+/* line 572, ../sass/_template.scss */
+.miga li {
+  float: left;
+  font-size: 20px;
+  font-size: 2rem;
+}
+/* line 575, ../sass/_template.scss */
+.miga li a {
+  color: #FF7E80;
+}
+/* line 577, ../sass/_template.scss */
+.miga li a:hover {
+  text-decoration: underline;
+}
+/* line 583, ../sass/_template.scss */
+.miga li:last-child a {
+  color: #cb1417;
+}
+
 /* line 4, ../sass/_template_products.scss */
 .item_detail {
   width: 100%;

@@ -15,7 +15,19 @@
     <div id="wrap">
         <?php include("includes/header.php");?>
         <section id="container">
-            
+            <div class="miga">
+                <ul>
+                    <li>
+                        <a href="index.php">Premium 88 / </a>
+                    </li>
+                    <li>
+                        <a href="wine-liquor.php"> Wine & liquor /</a>
+                    </li>
+                    <li>
+                        <a href="#"> Señorio de P.Peciña</a>
+                    </li>
+                </ul>
+            </div>
             <div id="content" class="section_wine cuerpo_b">
                 <h3 class="titulos-section M40 MBot">
                     Wine & Liquor

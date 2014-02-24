@@ -561,5 +561,30 @@ footer{
 	}
 }
 
+/*__________Migas de pan*/
+
+.miga {
+	display: block;
+	overflow: hidden;
+	@include rem-fallback(margin, 2, 0);
+	position: absolute;
+	top: 0;
+ 	li {
+ 		float: left;
+ 		@include rem-fallback(font-size, 2);
+ 		a {
+ 			color:#FF7E80;;
+ 			&:hover {
+ 				text-decoration: underline;
+ 			}
+ 		}
+ 	} 
+	li:last-child {
+		a{
+			color: #cb1417;
+		}
+	}
+}
+
 
 

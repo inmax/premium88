@@ -15,7 +15,19 @@
     <div id="wrap">
         <?php include("includes/header.php");?>
         <section id="container">
-            
+            <div class="miga">
+                <ul>
+                    <li>
+                        <a href="index.php">Premium 88 / </a>
+                    </li>
+                    <li>
+                        <a href="gourmet.php"> Gourmet Food/</a>
+                    </li>
+                    <li>
+                        <a href="#"> Don Bocarte products</a>
+                    </li>
+                </ul>
+            </div>
             <div id="content" class="section_wine section_gourmet cuerpo_b">
                 <h3 class="titulos-section M40 MBot">
                     Gourmet Food

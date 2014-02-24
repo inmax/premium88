@@ -7,13 +7,24 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
+<script src="script/jquery.js" type="text/javascript"></script>
+<script src="script/main.js" type="text/javascript"></script>
 </head>
 
 <body>
     <div id="wrap">
         <?php include("includes/header.php");?>
         <section id="container">
-            
+            <div class="miga">
+                <ul>
+                    <li>
+                        <a href="">Premium 88 / </a>
+                    </li>
+                    <li>
+                        <a href=""> Olive Oil</a>
+                    </li>
+                </ul>
+            </div>
             <div id="content" class="section_wine section_oil cuerpo_b">
                 <h3 class="titulos-section M40 MBot">
                     Millenary Olive Oil
