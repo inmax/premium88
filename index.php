@@ -68,7 +68,7 @@
                     </article>
                  </a> -->
                 <a href="gourmet.php"class="category gourmet P30 PBot">
-                    <img src="" title="Gourmet Food"/>
+                    <img src="images/gourmet-category.jpg" title="Gourmet Food"/>
                     <article class="cuerpo_a">
                         
                         <h3 class="titulos-b P15 PBot">Gourmet foods</h3>

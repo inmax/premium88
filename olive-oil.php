@@ -25,7 +25,7 @@
                 
                 <article class="product_single">
                     <div class="img_product">
-                    <img src="images/cervol-milenario-500-ml.jpg" height="410" width="310"/>
+                    <img src="images/cervol-milenario-500-ml.jpg"/>
                     </div>
                     <div class="cuerpo_c legend">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
@@ -63,8 +63,16 @@
                 <p class="P30 PBot">
                     Here are some articles were you can see the benefits of this diet and olive oil:
                 </p>
-                <ul>
-                    
+                <ul class="list">
+                    <li> 
+                        Mediterranean diet pyramid: a cultural model for healthy eating
+                    </li>
+                    <li>
+                            Olive oil and the cardiovascular system 
+                    </li>
+                    <li>
+                            Meta-analysis comparing Mediterranean to low-fat diets for modification of cardiovascular risk factors
+                    </li>
                 </ul>
 
                 <h4 class="titulos-b P30 PBot">What kind of oil do we offer?</h4>

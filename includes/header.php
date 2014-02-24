@@ -2,7 +2,7 @@
 	<span>
 		<a href="#">EN<div class="icon_g"></div>
 		</a><!--ingles -->
-		<a href="#">CN<div class="icon_h"></div>
+		<a href="#">ZH<div class="icon_h"></div>
 			
 		</a><!--chino -->
 	</span>

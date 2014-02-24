@@ -18,42 +18,45 @@
         <section id="container">
             
             <div id="content" class="section_wine section_cosmetic cuerpo_b">
-                <h3 class="titulos-section M40 MBot">
+                <h3 class="titulos-section M50 MBot">
                     Millenary Olive Oil Cosmetics
                     <span>
-                        <img src="images/olives.png"/>
+                        <img src="images/cosmetic-olive.png"/>
                     </span>
                 </h3>
                 <h4 class="titulos-b P30 PBot">
                     “From olive oil to eternity”
                 </h4>
 
-                <p class="P30 PBot letra_capital ">
+                <p class="P30 PBot letra_capital " style="width:90%">
                     This slogan summarizes quite well the spirit of our high quality cosmetics, made will olive oil extracted from olives from millenary olive trees.
                 </p>
                 <article class="item_detail">
-                    <img src="images/golden-edition-wine.jpg" height="450" width="184"/>
+                    <img src="images/facial-serum.jpg"/>
                     <div class="cuerpo_c">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
-                        GOLD EDITION WINE
+                            FACIAL SERUM
                         </h4>
+                        <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                            Moisturizing, anti-wrinkle, and firming
+                        </h5>
                         <p class="P15 PBot">
-                            This exuberant and delicate luxury is made with skilled craftsmanship and with the greatest respect for our natural environment. The result is a unique and most refined product. Enjoy this authentic, elegant jewel and make any moment a very special occasion.
+                            Intensive anti-aging treatment, it tenses and repairs the skin, filling the wrinkles from   within. It has a really strong moisturizing effect that fights against the signs of aging. It   also has a remarkable firming effect, promoting elasticity and skin tone. It’s the best way to  reduce wrinkles and expression lines. Specially recommended for mature skins.
                         </p>
                         <p class="P15 PBot">
-                            Hand-crafted after meticulous sorting of our exquisite Sauvignon Blanc grapes and then embellished with sparkles of edible glamorous gold.
+                            It also includes snake venom peptide, the most innovative anti-wrinkle and anti-aging   treatment.
                         </p>
                         <p class="P15 PBot">
-                            Gold is the most well known symbol of luck, prosperity and fortune. It doesn´t react with oxygen, so it doesn’t rust. It’s meant to last forever.
+                            Active principles: 
                         </p>
                         <p class="P15 PBot">
-                            What would be better to celebrate a good deal than opening a bottle like this? You would be serving your guest an excellent wine, also you would be rewarding him with a powerful symbol of luck and luxury.
+                            Millenary extra-virgin olive oil, snake venom peptide, collagen, Porphyridium cruentum  algae, vegetable placenta, elastine, coenzime Q10, vitamines A and E.
                         </p>
                         <p class="P15 PBot">
-                            Need a fancy drink for a special romantic moment? Can you imagine something more appropriate than our Golden Edition Wine?
-                        </p>
-                            
+                            Apply twice a day during twenty days. Repeat treatment every three months.
+                        </p>        
                     </div>
+                    
                 </article>
                 <div class="collection P30 PBot">
                     <ul>
@@ -62,16 +65,24 @@
                             <a href="#">FACIAL SERUM</a>
                         </li>
                         <li id="it2">
-                            <img src="images/trivium-balck-edition_thumb.png"/>
-                            <a href="#">GOLD EDITION WINE</a>
+                            <img src="images/facial-cream_tumb.jpg"/>
+                            <a href="#">FACIAL CREAM</a>
                         </li>
                         <li id="it3">
-                            <img src="images/trivium-quo-vadis_thum.png"/>
-                            <a href="#">GUO VADIS FONDILLON</a>
+                            <img src="images/eye-contour-cream_thum.jpg"/>
+                            <a href="#">EYE CONTOUR CREAM</a>
                         </li>
                         <li id="it4">
-                            <img src="images/trivium-king-of-kings_thumb.jpg"/>
-                            <a href="#">KING OG KINGS</a>
+                            <img src="images/bath-gel_thum.jpg"/>
+                            <a href="#">BATH GEL</a>
+                        </li>
+                        <li id="it5">
+                            <img src="images/body-oil_thumb.jpg"/>
+                            <a href="#">BODY OIL</a>
+                        </li>
+                        <li id="it6">
+                            <img src="images/eau-de-cologne-unisex_thumb.jpg"/>
+                            <a href="#">EAU DE COLOGNE UNISEX</a>
                         </li>
                     </ul>
                 </div>
@@ -104,7 +115,7 @@
         </section><!--div container -->
 
         <div id="item_it1" class="itemInfo">
-                    <img src="images/facial-serum_thumb.jpg" height="200" width="130"/>
+                    <img src="images/facial-serum.jpg"/>
                     <div class="cuerpo_c">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                             FACIAL SERUM
@@ -131,57 +142,109 @@
         </div>
 
         <div id="item_it2" class="itemInfo">
-            <img src="images/black-edition-wine.jpg" height="450" width="184"/>
+            <img src="images/facial-cream.jpg"/>
             <div class="cuerpo_c">
                 <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
-                BLACK EDITION WINE
+                    FACIAL CREAM
                 </h4>
+                <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                     Moisturizing, anti-wrinkle, and firming       
+                </h5>
                 <p class="P15 PBot">
-                    Black Edition is a signature red wine, a unique, never to be repeated wine crafted by his own hands. All the soul and passion of the winemaker encapsulated in a bottle. This mysterious and delicious blend is a highly personal selection of grapes taken from the lovingly cared for vines of an old vineyard, vinified separately by hand and then closely monitored for years during its ageing in our cellars. (Includes a shaker of edible gold to sprinkle gold dust in your glass of wine).
+                    Moisturizing, anti-wrinkle and firming, for normal, dry and delicate skins. It ensures good     elasticity, good hydration, and the surface tends to uniform in a nice expression of beauty.
                 </p>
                 <p class="P15 PBot">
-                    This edition is somehow more formal and extremely classy. It embodies tradition, good taste and it’s a gift that shows confidence and know-how. The edible gold shaker is another fine detail that will surprise everyone when you using it.
+                    It’s perfect for treating wrinkles and expression marks. It has a natural array of  oligopeptides that are nature’s alternative to botulinum toxine. It softens the wrinkles    relaxing the facial muscles. It also activates the growth of new skin cells and promotes the creation of new collagen fibres. 
+                </p>
+                <p class="P15 PBot">
+                    Its moisturizing effect lasts for more than 24 hours.
+                </p>
+                <p class="P15 PBot">
+                    Active principles: millenary extra-virgin olive oil, aloe barbadensis, malic, glicolic, lactic, citric and tartaric acids, moisturizing agents and vitamin A.
+                </p>
+                <p class="P15 PBot">
+                    Apply morning and night on face and neck with a soft ascending massage.
                 </p>
             </div>
         </div>
         <div id="item_it3" class="itemInfo">
-            <img src="images/quo-vadis-wine.jpg" height="450" width="184"/>
+            <img src="images/eye-contour-cream.jpg" height="450" width="254"/>
             <div class="cuerpo_c">
                 <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
-                QUO VADIS FONDILLÓN SOLERA 1972 WINE
+                    EYE CONTOUR CREAM
                 </h4>
+                <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                     Anti-dark circles, moisturizing, anti-wrinkle, firming and anti eye bags    
+                </h5>
                 <p class="P15 PBot">
-                    This fortified wine is unique in the world. It exhibits extraordinary, individual character. Famous already back in the early 13th century, it was the first wine to have its own name and was the preferred choice of kings and enjoyed by many great figures throughout history.
+                    It avoids skin dehydration, eyelid sagging, and also the formation of dark circles and eye  bags. It’s the perfect treatment for eye contour, moisturizing and helping to reduce small      wrinkles. It’s also firming and promotes skin elasticity. Special for delicate and aging    skins.
                 </p>
                 <p class="P15 PBot">
-                    Made only in vintages of outstanding quality from vines of the Monastrell variety of over 30 years old, it was the first wine to travel round the world on the voyages of Juan Sabastián Elcano, the Spanish adventurer who took a trip around the world for the very first time in History.
+                    Active principles: 
                 </p>
                 <p class="P15 PBot">
-                    The Fondillón of Alicante is our most prized jewel. It was included in the Five Luxury Wines officially declared by the European Union.
+                    Millenary extra-virgin olive oil, low molecular weight hyaluronic acid, globular proteins,  collagen, elastine, sorbic acid, and chamomile and ruscus.
                 </p>
                 <p class="P15 PBot">
-                    What else can be said about this wine? The bottle is a jewel by itself, and the wine harnesses centuries of tradition. With this choice, you can never be wrong. Perfect as a gift, to seal a deal and for any special moment. It is a wine designed to celebrate the most important moments of our life.
+                    Make sure that your skin is well cleaned before using the cream. Apply it tapping softly the eye contour with the tip of your fingers. Use it twice a day (morning / night).
                 </p>  
             </div>
         </div>
         <div id="item_it4" class="itemInfo">
-            <img src="images/king-of-kings.jpg" height="450" width="184"/>
+            <img src="images/bath-gel.jpg"/>
             <div class="cuerpo_c">
                 <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
-                    KING OF KINGS
+                    BATH GEL
+                </h4>
+                <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                    Stimulating and moisturizing
+                </h5>
+                <p class="P15 PBot">
+                   Stimulating, really foaming, and with the special properties of the millenary extra-virgin   olive oil. 
+                </p>
+                <p class="P15 PBot">
+                    It can be used in every kind of skin, except for those allergic to surfactant agents.
+                </p>
+                <p class="P15 PBot">
+                   Active principles: 
+                </p>
+                <p class="P15 PBot">
+                     Millenary extra-virgin olive oil, glycerine, aromatherapy essences, coconut fatty acids, anionic detergents.
+                </p>     
+            </div>
+        </div>
+         <div id="item_it5" class="itemInfo">
+            <img src="images/body-oil.jpg"/>
+            <div class="cuerpo_c">
+                <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                    BODY OIL
+                </h4>
+                <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                    Moisturizing
+                </h5>
+                <p class="P15 PBot">
+                    Moisturizing body oil, with gel texture. Deeply hydrates and softens the skin, creating a   sensation of freshness and wellbeing. You will notice that your skin will have a healthy glow and will be smooth and silky all day long.
+                </p>
+                <p class="P15 PBot">
+                    Active principles:
+                </p>
+                <p class="P15 PBot">
+                    Millenary extra-virgin olive oil, vitamine E and capril caprate triglycerides.
+                </p>
+                <p class="P15 PBot">
+                    Apply over wet skin with a soft massage.
+                </p>     
+            </div>
+        </div>
+         <div id="item_it6" class="itemInfo">
+            <img src="images/eau-de-cologne-unisex.jpg" height="450" width="254"/>
+            <div class="cuerpo_c">
+                <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                  EAU DE COLOGNE UNISEX
                 </h4>
                 <p class="P15 PBot">
-                   King of Kings is a unique, exquisite pure olive juice with outstanding qualities and properties. Our ancient, historic olive groves dating back over 1,000 years produces the liquid gold of the Mediterranean diet. 
-                </p>
-                <p class="P15 PBot">
-                    These wise, old olive trees, witnesses of the Roman occupation, yield to us the most exclusive, special oil in the world. Delicately hand-crafted, as it used to be made a millennium ago. This pure, exquisite extra virgin oil of the Farga olive variety, offers incomparable pleasure, the fruit of history and our ancestral traditions.
-                </p>
-                <p class="P15 PBot">
-                    This is the luxury edition of our millenary olive oil selection. <a href="olive-oil.php"> Please, click here for more information</a>, and learn why this oil is considered the liquid gold of the Mediterranean cuisine. Perfect for seasoning, to cook gourmet foods or even to be eaten directly with some fine bread. It is also world´s healthiest oil, bar none.
-                </p>
-                <p class="P15 PBot">
-                    You won´t find anything like this.
-                </p>     
+                    Eau de cologne Unisex, with millenary olive oil extract. This cologne has a strong personality that reminds the smell of the olive leaf. Special, elegant and the most unique scent you will ever find.
+                </p>  
             </div>
         </div>
 

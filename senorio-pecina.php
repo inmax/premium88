@@ -33,7 +33,7 @@
                    The history of Rioja wines comes from the Middle Age due to the fact that winemaking in the Mediterranean area had strong ties with the monastic life, since it was mainly the monks who made it widely known. 
                 </p>
                 <article class="item_detail">
-                    <img src="images/senorio-pecina-cosecha.jpg" height="450" width="184"/>
+                    <img src="images/senorio-pecina-cosecha.jpg" >
                     <div class="cuerpo_c">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         SEÑORÍO DE P. PECIÑA YOUNG
@@ -138,7 +138,7 @@
             
         </section><!--div container -->
          <div id="item_it1" class="itemInfo">
-                    <img src="images/senorio-pecina-cosecha.jpg" height="450" width="184"/>
+                    <img src="images/senorio-pecina-cosecha.jpg" >
                     <div class="cuerpo_c">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         SEÑORÍO DE P. PECIÑA YOUNG
@@ -159,7 +159,7 @@
         </div>
         
         <div id="item_it2" class="itemInfo">
-            <img src="images/senoria-pecina-crianza.jpg" height="450" width="184"/>
+            <img src="images/senoria-pecina-crianza.jpg" />
             <div class="cuerpo_c">
                 <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                 SEÑORIO DE P. PECIÑA CRIANZA
@@ -190,7 +190,7 @@
             </div>
         </div>
         <div id="item_it3" class="itemInfo">
-            <img src="images/senoria-pecina-reserva.jpg" height="450" width="184"/>
+            <img src="images/senoria-pecina-reserva.jpg"/>
             <div class="cuerpo_c">
                 <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                     SEÑORIO DE P. PECIÑA GRAN RESERVA

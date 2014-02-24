@@ -14,7 +14,7 @@
 	div{
 		display: inline-block;
 		overflow-y: scroll;
-		@include rem-fallback(width,47);
+		@include rem-fallback(width,38);
 		height: 100%;
 		background: $color1;
 		color: #FFFFFF;
@@ -31,20 +31,41 @@
 		color:#FFFFFF;
 	}
 }
+.img_product{
+		display: inline-block;
+		vertical-align: middle;
+		@include rem-fallback(width,18.4);
+		height: 100%;
+		overflow: hidden;
+		position:relative;
+		img{
+			width: 100%;
+			display: block;
+			margin: 0 auto;
+			margin-left: -16%;
+		}
+}
 .collection {
 	width: 100%;
 	ul {
-	overflow: hidden;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	text-align: left;
+	white-space: nowrap;
+	z-index:1
 	}
 	li{
 		width: 160px;
-		height: 230px;
-		float: left;
+		height: auto;
 		border: 1px solid #C6C6C5;
 		@include rem-fallback(padding, 1);
 		text-align: center;
 		box-sizing:border-box;
 		cursor: pointer;
+		white-space: normal;
+		display: inline-block;
+		vertical-align: top;
 		&:hover {
 			border: 4px solid #C01113;
 		}
@@ -63,6 +84,8 @@
 				color: $color3;
 				text-align: center;
 				line-height: 1.2em;
+				display: block;
+				@include rem-fallback(height,4);
 		}
 		p{
 			a{
@@ -145,5 +168,18 @@
 		img{
 			@include rem-fallback(width,25.4);
 		}
+	}
+}
+table{
+	width:100%;
+	height: auto;
+	border:1px solid #C0C0C0;
+	border-collapse: collapse;
+	th,td{
+		width: 25%;
+		text-align: left;
+		border:1px solid #C0C0C0;
+		border-collapse: collapse;
+		@include rem-fallback(padding,0.2,0.5);
 	}
 }

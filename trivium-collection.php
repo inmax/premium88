@@ -36,7 +36,7 @@
                     The Trivium Collection philosophy is a fusion of the convictions that have made it unique: total passion in our work, loving care for the natural environment to create unique works of art. Commitment to a 1,000 year old olive-growing culture. Outstanding vintages in specially adorned bottles with exclusive materials and designs. The desire to share our love for all that is sublime.
                 </p>
                 <article class="item_detail">
-                    <img src="images/golden-edition-wine.jpg" height="450" width="184"/>
+                    <img src="images/golden-edition-wine.jpg"/>
                     <div class="cuerpo_c">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         GOLD EDITION WINE
@@ -84,7 +84,7 @@
         </section><!--div container -->
         
             <div id="item_it1" class="itemInfo">
-                    <img src="images/golden-edition-wine.jpg" height="450" width="184"/>
+                    <img src="images/golden-edition-wine.jpg"/>
                     <div class="cuerpo_c">
                         <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                         GOLD EDITION WINE
@@ -108,7 +108,7 @@
         </div>
 
         <div id="item_it2" class="itemInfo">
-            <img src="images/black-edition-wine.jpg" height="450" width="184"/>
+            <img src="images/black-edition-wine.jpg"/>
             <div class="cuerpo_c">
                 <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                 BLACK EDITION WINE
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div id="item_it3" class="itemInfo">
-            <img src="images/quo-vadis-wine.jpg" height="450" width="184"/>
+            <img src="images/quo-vadis-wine.jpg"/>
             <div class="cuerpo_c">
                 <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                 QUO VADIS FONDILLÓN SOLERA 1972 WINE
@@ -142,7 +142,7 @@
             </div>
         </div>
         <div id="item_it4" class="itemInfo">
-            <img src="images/king-of-kings.jpg" height="450" width="184"/>
+            <img src="images/king-of-kings.jpg"/>
             <div class="cuerpo_c">
                 <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
                     KING OF KINGS

@@ -227,7 +227,21 @@ a:hover{
 		@include rem-fallback(margin, 0,4,0,4);
 	}
 }
-
+.M50 {
+	@include rem-fallback(margin, 5);
+	&.MTop{
+		@include rem-fallback(margin, 5,0,0,0);
+	}
+	&.MBot{
+		@include rem-fallback(margin, 0,0,5,0);
+	}
+	&.MLeft{
+		@include rem-fallback(margin, 0,0,0,5);
+	}
+	&.MSide{
+		@include rem-fallback(margin, 0,5,0,5);
+	}
+}
 .letra_capital:first-letter {
 	font-size: 2em;
 }

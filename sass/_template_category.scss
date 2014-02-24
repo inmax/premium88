@@ -101,9 +101,28 @@
 			width: 22%;
 		}
 	}
-	.item_detail{
+	.product_single{
+		background:$color1;
 
+	}
+	.img_product{
+		width:50%;
+		@include rem-fallback(height,45);
+		img{
+			margin: 0;
+		}
+	}
+	.legend{
+		width:50%;
+		overflow-y:visible;
+	}
+	.list{
 
+		li{
+			text-decoration: underline;
+			font-family: 'gentium-bold';
+			cursor: pointer;
+		}
 	}
 }
 
@@ -113,16 +132,35 @@
 		margin:0;
 	}
 	h3{
-		@include rem-fallback(height,12);
+		@include rem-fallback(height, 12);
 		img{
 			position: absolute;
-			top: -44%;
+			top: 100%;
 			left: 85%;
 			width: 22%;
 		}
 	}
-	.item_detail{
-
-
+	.collection{
+		li{
+			width: 16%;
+			height: auto;
+		}
+		a{
+			@include rem-fallback(height,6);
+		}
+	}
+}
+.section_gourmet{
+	h5{
+		margin:0;
+	}
+	h3{
+		position: relative;
+		img{
+			position: absolute;
+			top: -75%;
+			right: -2%;
+			width: 28%;
+		}
 	}
 }

@@ -14,11 +14,11 @@
         <?php include("includes/header.php");?>
         <section id="container">
             
-            <div id="content" class="section_wine">
+            <div id="content" class="section_wine section_gourmet">
                 <h3 class="titulos-section M40 MBot">
                     Gourmet Food
                     <span>
-                        <img src="images/"/>
+                        <img src="images/gourmet.png"/>
                     </span>
                 </h3>
                 <!--Item -->                    
