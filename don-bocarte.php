@@ -38,14 +38,14 @@
                 <h4 class="titulos-c P30 PBot">
                     DON BOCARTE PRODUCTS
                 </h4>
-                <p class="P30 PBot letra_capital" style="width:85%">
+                <p class="P30 PBot letra_capital">
                     Don Bocarte selects only the best raw materials for its products. Since 1997 our company has developed its own production methods with the sole aim of achieving great culinary products, worthy of the most discerning palates.
                 </p>
                 
                 <article class="item_detail">
                     <img src="images/don-bocarte-anchovies.png"/>
                     <div class="cuerpo_c">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h4 class="titulos-e P30 PBot">
                             DON BOCARTE ANCHOVIES
                         </h4>
                         <p class="P15 PBot">
@@ -79,11 +79,11 @@
                     <ul>
                         <li id="it1">
                             <img src="images/don-bocarte-anchovies_thumb.jpg">
-                            <a href="">DON BOCARTE ANCHOVIES</a>
+                            <a href="#">DON BOCARTE ANCHOVIES</a>
                         </li>
                         <li id="it2">
                             <img src="images/don-bocarte-bonito_thumb.jpg"/>
-                            <a href="">DON BOCARTE BONITO (tuna fish)</a>
+                            <a href="#">DON BOCARTE BONITO (tuna fish)</a>
                         </li>
                     </ul>
                 </div>
@@ -315,7 +315,7 @@
         <div id="item_it1" class="itemInfo">
             <img src="images/don-bocarte-anchovies.png"/>
                     <div class="cuerpo_c">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h4 class="titulos-e P30 PBot">
                             DON BOCARTE ANCHOVIES
                         </h4>
                         <p class="P15 PBot">
@@ -348,7 +348,7 @@
         <div id="item_it2" class="itemInfo">
             <img src="images/don-bocarte-bonito.jpg"/>
             <div class="cuerpo_c">
-                <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h4 class="titulos-e P30 PBot">
                     DON BOCARTE BONITO (tuna fish)
                 </h4>
                 <p class="P15 PBot">

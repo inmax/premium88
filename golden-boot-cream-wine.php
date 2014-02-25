@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name = "format-detection" content = "telephone=no">
-<title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
+<title>PREMIUM 88 | SPAIN´S FINEST FOODS & DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
@@ -38,25 +38,25 @@
                 <h4 class="titulos-c P30 PBot">
                     GOLDEN BOOT CREAM WINE</br>LIMITED PRODUCTION
                 </h4>
-                <p class="P30 PBot letra_capital" style="width:85%">
+                <p class="P30 PBot letra_capital">
                     The Golden Boot Cream Wine is a generous wine brewed by mixing “oloroso” wines with an important contribution of sweet wine Pedro Ximenez.
                 </p>
                 <article class="product_single">
                     <div class="img_product">
                         <img src="images/golden-boot-pedro-ximenez-cream.jpg" height="550" width="238"/>
                     </div>
-                    <div class="cuerpo_c legend">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                    <div class="cuerpo_e legend">
+                        <h4 class="titulos-e P30 PBot">
                         GOLDEN BOOT CREAM WINE
                         </h4>
-                        <h5 class="P15 PBot titulos-d">
+                        <h5 class="P15 PBot titulos-e">
                             Tasting Notes
                         </h5>
                         <p class="P15 PBot">
                             Dark brown mahogany colour, its appearance is unctuous. This wine
                             combines sweetish and toasted notes. It results sweet tooth in mouth with a velvety, well-balanced texture. In mouth with a long aftertaste which combines
                         </p>
-                        <h5 class="P15 PBot titulos-d">
+                        <h5 class="P15 PBot titulos-e">
                             Service and consumption
                         </h5>
                         <p class="P15 PBot">

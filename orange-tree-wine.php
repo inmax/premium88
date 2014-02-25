@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name = "format-detection" content = "telephone=no">
-<title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
+<title>PREMIUM 88 | SPAIN´S FINEST FOODS & DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
@@ -38,7 +38,7 @@
                 <h4 class="titulos-c P30 PBot">
                     ORANGE TREE WINE
                 </h4>
-                <p class="P30 PBot letra_capital" style="width:85%">
+                <p class="P30 PBot letra_capital">
                     Orange Tree wine is a unique product made with Seville Ecological Appellation orange peels. This wine is obtained through a maceration process under the supervision of seven winemakers who exclusively work towards achieving the highest quality, thus making this wine an exclusive product in the world of wines due to its aging in oak barrels for over 10 years.
                 </p>
                 <article class="product_single">
@@ -46,7 +46,7 @@
                         <img src="images/orange-wine-b.jpg"/>
                     </div>
                     <div class="cuerpo_c legend">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h4 class="titulos-e P30 PBot">
                         ORANGE TREE WINE
                         </h4>
                         Tasting Notes

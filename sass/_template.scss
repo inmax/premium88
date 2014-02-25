@@ -3,13 +3,13 @@
 
 .titulos-section{
 	font-family: $font-titular;
-	@include rem-fallback(font-size, 6);
+	@include rem-fallback(font-size, 5);
 	font-weight: normal;
 	color: $color1;
 }
 .titulos-b{
 	font-family: $font-titular;
-	@include rem-fallback(font-size, 4);
+	@include rem-fallback(font-size, 3);
 	color: $color1;
 	font-weight: normal;
 }
@@ -25,6 +25,12 @@
 	font-family: $font-titular;
 	@include rem-fallback(font-size, 2);
 	color: $color1;
+	font-weight: normal;
+}
+.titulos-e{
+	font-family: $font-titular;
+	@include rem-fallback(font-size, 2.4);
+	color:#6B6060;
 	font-weight: normal;
 }
 
@@ -515,10 +521,11 @@ footer{
 	position: absolute;
 	@include rem-fallback(margin-top, 26);
 	width: 100%;
-	@include rem-fallback(height, 3);
+	@include rem-fallback(height, 4);
 	@include rem-fallback(font-size, 1.6);
 	background-color: $color1;
 	color: #FFFFFF;
+	@include rem-fallback(padding,0.5,0.5,0.5,3);
 }
 //home
 .category{

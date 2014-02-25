@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name = "format-detection" content = "telephone=no">
-<title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
+<title>PREMIUM 88 | SPAIN´S FINEST FOODS & DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
@@ -38,7 +38,7 @@
                 <h4 class="titulos-c P30 PBot">
                     GOLDEN BOOT PEDRO XIMÉNEZ</br>LIMITED PRODUCTION
                 </h4>
-                <p class="P30 PBot letra_capital" style="width:85%">
+                <p class="P30 PBot letra_capital">
                     Our Pedro Ximenez is obtained from the grape with the same name, it is made under the “soleo” traditional method to raisin the grape. The pressing of the grapes yields a special concentration of sugar and its brewing process with its unique oxidative character enables a progressive concentration of aromas with an increasingly complexity while it never loses its freshness and fruity typical variety.
                 </p>
 
@@ -47,10 +47,10 @@
                         <img src="images/golden-boot-pedro-ximenez-limited.jpg" height="550" width="238"/>
                     </div>
                     <div class="cuerpo_b legend">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h4 class="titulos-e P30 PBot">
                         GOLDEN BOOT FINE WINE
                         </h4>
-                        <h5 class="P15 PBot titulos-d">
+                        <h5 class="P15 PBot titulos-e">
                             Tasting Notes
                         </h5>
                         <p class="P15 PBot">
@@ -62,7 +62,7 @@
                         <p class="P15 PBot">
                             In mouth it results velvety and unctuous and with a characteristic sweetness in the end and a warmth, long and tasty after-taste.
                         </p>
-                        <h5 class="P15 PBot titulos-d">
+                        <h5 class="P15 PBot titulos-e">
                             Service and consumption
                         </h5>
                         <p class="P15 PBot">

@@ -31,15 +31,13 @@
                     <span>
                         <img src="images/olives.png"/>
                     </span>
-                </h3>
-
-                
+                </h3>              
                 <article class="product_single">
                     <div class="img_product">
                     <img src="images/cervol-milenario-500-ml.jpg"/>
                     </div>
                     <div class="cuerpo_c legend">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h4 class="titulos-e P30 PBot">
                         CERVOL
                         </h4>
                         <p class="P15 PBot">

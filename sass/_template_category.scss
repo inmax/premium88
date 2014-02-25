@@ -2,7 +2,7 @@
 .section_wine{
 	h3{
 		width: 100%;
-		@include rem-fallback(height, 7);
+		@include rem-fallback(height, 5);
 		border-bottom: 1px $color1 inset;
 		@include rem-fallback(line-height,5);
 		position: relative;
@@ -10,7 +10,7 @@
 			position: absolute;
 			top:100%;
 			right: 0;
-			width: 25%;
+			width: 19%;
 		}
 	}
 	h5{
@@ -101,10 +101,6 @@
 			width: 22%;
 		}
 	}
-	.product_single{
-		background:$color1;
-
-	}
 	.img_product{
 		width:50%;
 		@include rem-fallback(height,45);
@@ -158,7 +154,7 @@
 		position: relative;
 		img{
 			position: absolute;
-			top: -75%;
+			top: -145%;
 			right: -2%;
 			width: 28%;
 		}

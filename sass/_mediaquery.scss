@@ -4,3 +4,25 @@
 	}
 
 }
+@media only screen and (min-width:1601px){ 
+	#container{
+				@include rem-fallback(padding, 10,5,0,50);		
+	}
+	#header-b{
+		h2,{
+			@include rem-fallback(margin,0,0,0,40);
+		}
+		nav{
+			@include rem-fallback(margin,0,0,0,40);
+
+		}
+
+	}
+	#menu{
+		@include rem-fallback(left,18);
+	}
+	#logo{
+		@include rem-fallback(left,15);
+	}
+
+}

@@ -45,7 +45,7 @@
                 <article class="item_detail">
                     <img src="images/saffron.jpg"/>
                     <div class="cuerpo_c">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h4 class="titulos-e P30 PBot">
                         SAFFRON FROM LA MACHA (SPAIN)
                         </h4>
                        
@@ -53,7 +53,7 @@
                             Spanish saffron is characterized by being very aromatic and by its absence of astringent taste. The manufacturing process consists of drying the saffron by simmering and this ancient process is responsible for the product to have a better presence intense aroma and outstanding tinting properties.
                         </p>
                         <p class="P15 PBot">
-                                                The fine cuisine, particularly the Mediterranean, continues to use saffron in a variety of dishes based on rice (paella), meat, poultry, fish, stews, eggs, salad dressings, broths, soups, sauces, stuffing, pastas, seafood and even making sweets, ice cream, syrups and liqueurs.
+                            The fine cuisine, particularly the Mediterranean, continues to use saffron in a variety of dishes based on rice (paella), meat, poultry, fish, stews, eggs, salad dressings, broths, soups, sauces, stuffing, pastas, seafood and even making sweets, ice cream, syrups and liqueurs.
                         </p>     
                     </div>
                 </article>

@@ -16,8 +16,8 @@
 		overflow-y: scroll;
 		@include rem-fallback(width,38);
 		height: 100%;
-		background: $color1;
-		color: #FFFFFF;
+		background: #DBDBDB;
+		color: $color4;
 		vertical-align: top;
 		white-space: normal;
 		@include rem-fallback(padding,2);
@@ -28,7 +28,6 @@
 	}
 	h5{
 		margin: 0;
-		color:#FFFFFF;
 	}
 }
 .img_product{
@@ -134,8 +133,8 @@
 		display: inline-block;
 		@include rem-fallback(width,47);
 		@include rem-fallback(height,45);
-		background: $color1;
-		color: #FFFFFF;
+		background: #DBDBDB;
+		color: $color4;
 		vertical-align: top;
 		white-space: normal;
 		@include rem-fallback(padding,2);
@@ -143,7 +142,6 @@
 	}
 	h5{
 		margin: 0;
-		color:#FFFFFF;
 	}
 	.img_product{
 		display: inline-block;

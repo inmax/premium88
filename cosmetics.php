@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name = "format-detection" content = "telephone=no">
-<title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
+<title>PREMIUM 88 | SPAIN´S FINEST FOODS & DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
@@ -43,10 +43,10 @@
                 <article class="item_detail">
                     <img src="images/facial-serum.jpg"/>
                     <div class="cuerpo_c">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h4 class="titulos-e P30 PBot">
                             FACIAL SERUM
                         </h4>
-                        <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h5 class="titulos-e P30 PBot">
                             Moisturizing, anti-wrinkle, and firming
                         </h5>
                         <p class="P15 PBot">
@@ -126,10 +126,10 @@
         <div id="item_it1" class="itemInfo">
                     <img src="images/facial-serum.jpg"/>
                     <div class="cuerpo_c">
-                        <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h4 class="titulos-e P30 PBot">
                             FACIAL SERUM
                         </h4>
-                        <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                        <h5 class="titulos-e P30 PBot">
                             Moisturizing, anti-wrinkle, and firming
                         </h5>
                         <p class="P15 PBot">
@@ -153,10 +153,10 @@
         <div id="item_it2" class="itemInfo">
             <img src="images/facial-cream.jpg"/>
             <div class="cuerpo_c">
-                <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h4 class="titulos-e P30 PBot">
                     FACIAL CREAM
                 </h4>
-                <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h5 class="titulos-e P30 PBot">
                      Moisturizing, anti-wrinkle, and firming       
                 </h5>
                 <p class="P15 PBot">
@@ -179,10 +179,10 @@
         <div id="item_it3" class="itemInfo">
             <img src="images/eye-contour-cream.jpg" height="450" width="254"/>
             <div class="cuerpo_c">
-                <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h4 class="titulos-e P30 PBot">
                     EYE CONTOUR CREAM
                 </h4>
-                <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h5 class="titulos-e P30 PBot">
                      Anti-dark circles, moisturizing, anti-wrinkle, firming and anti eye bags    
                 </h5>
                 <p class="P15 PBot">
@@ -202,10 +202,10 @@
         <div id="item_it4" class="itemInfo">
             <img src="images/bath-gel.jpg"/>
             <div class="cuerpo_c">
-                <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h4 class="titulos-e P30 PBot" >
                     BATH GEL
                 </h4>
-                <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h5 class="titulos-e P30 PBot" >
                     Stimulating and moisturizing
                 </h5>
                 <p class="P15 PBot">
@@ -225,10 +225,10 @@
          <div id="item_it5" class="itemInfo">
             <img src="images/body-oil.jpg"/>
             <div class="cuerpo_c">
-                <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h4 class="titulos-e P30 PBot">
                     BODY OIL
                 </h4>
-                <h5 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h5 class="titulos-e P30 PBot">
                     Moisturizing
                 </h5>
                 <p class="P15 PBot">
@@ -248,7 +248,7 @@
          <div id="item_it6" class="itemInfo">
             <img src="images/eau-de-cologne-unisex.jpg" height="450" width="254"/>
             <div class="cuerpo_c">
-                <h4 class="titulos-c P30 PBot" style="color:#FFFFFF;">
+                <h4 class="titulos-e P30 PBot">
                   EAU DE COLOGNE UNISEX
                 </h4>
                 <p class="P15 PBot">

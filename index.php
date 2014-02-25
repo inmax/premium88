@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name = "format-detection" content = "telephone=no">
-<title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
+<title>PREMIUM 88 | SPAIN´S FINEST FOODS & DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
@@ -73,7 +73,7 @@
                     <img src="images/gourmet-category.jpg" title="Gourmet Food"/>
                     <article class="cuerpo_a">
                         
-                        <h3 class="titulos-b P15 PBot">Gourmet foods</h3>
+                        <h3 class="titulos-b P15 PBot">Gourmet food</h3>
                         <h4 class="titulos-c P15 PBot" >Why cooking with olive oil?</h4>
                         <p class="P15 PBot letra_capital">
                             Because your health matters, and at the same time, you will be tasting one of the most delicious condiments in the world.
