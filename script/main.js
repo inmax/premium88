@@ -26,7 +26,7 @@ $(function() {
           if(scrollTop >= 110){
             $('header').css({
               'position':'fixed',
-              // 'transition': 'all 0.5s',
+              // 'transition': 'all 0.2s',
               'top': '-110px'
             });
             $('#menu').css({
@@ -36,7 +36,7 @@ $(function() {
             $('#logo').css({
               'width': '180px',
               'transition': 'all 0.2s',
-              'top': '110px',
+              'top': '70px',
               'left': '70px'
             });
           }
@@ -51,7 +51,7 @@ $(function() {
             });
             $('#logo').css({
               'width': '280px',
-              'top': '0',
+              'top': '-40px',
               'left': '30px'
             });
           }

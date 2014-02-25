@@ -311,7 +311,7 @@ header{
 	
 
 }
-#header-b{
+.rawpper_header{
 	width: 100%;
 	@include rem-fallback(height, 20);
 	background:url('../images/pattern.png') no-repeat;
@@ -320,6 +320,13 @@ header{
 	box-shadow: 4px 6px 10px rgba(0,0,0,.4);
 	display: inline-block;
 	text-align: left;
+	position:relative;
+
+}
+#header-b{
+	position: absolute;
+	height: 100%;
+	display: block;
 	h2{
 		font-family:'arimo';
 		text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
@@ -402,7 +409,7 @@ header{
 }
 #logo{
 	position: absolute;
-	@include rem-fallback(top,0);
+	@include rem-fallback(top,-4);
 	@include rem-fallback(left,3);
 	@include rem-fallback(width,28);
 	@include rem-fallback(height,28);

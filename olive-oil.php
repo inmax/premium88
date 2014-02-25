@@ -3,12 +3,10 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name = "format-detection" content = "telephone=no">
-<title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
+<title>PREMIUM 88 | SPAIN´S FINEST FOODS & DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
-<script src="script/jquery.js" type="text/javascript"></script>
-<script src="script/main.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -18,10 +16,10 @@
             <div class="miga">
                 <ul>
                     <li>
-                        <a href="">Premium 88 / </a>
+                        <a href="index.php">Premium 88 / </a>
                     </li>
                     <li>
-                        <a href=""> Olive Oil</a>
+                        <a href="olive-oil.php"> Olive Oil</a>
                     </li>
                 </ul>
             </div>
@@ -116,6 +114,8 @@
 
         <?php include("includes/footer.php");?>
     </div><!--div wrap -->
+    <script src="script/jquery.js" type="text/javascript"></script>
+    <script src="script/main.js" type="text/javascript"></script>
     
     
 </body>
