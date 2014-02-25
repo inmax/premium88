@@ -7,8 +7,6 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
-<script src="script/jquery.js" type="text/javascript"></script>
-<script src="script/main.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -85,15 +83,14 @@
                 <p class="P30 PBot">
                     You may have tasted other brandies but this one is perfect to be served as an appetizer of for dessert. It is also excellent to be enjoyed at home after a long day of work, where you may want a traditional drink like brandy with something special to satisfy your sweet tooth. And don´t be afraid about it being too sugary, the blend of brandy and toasted caramel flavour is just perfect and it ensures a smooth experience on your palate.
                 </p>
-                
-                
-
             </div><!--div contet -->
             
         </section><!--div container -->
 
         <?php include("includes/footer.php");?>
     </div><!--div wrap -->
+    <script src="script/jquery.js" type="text/javascript"></script>
+    <script src="script/main.js" type="text/javascript"></script>
     
     
 </body>

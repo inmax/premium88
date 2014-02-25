@@ -29,6 +29,15 @@
 		h5{
 			margin: 0;
 		}
+		a{
+			display: block;
+			&:hover{
+				color: #878A77;
+				h4,h5 {
+				color:#878A77;
+				}
+			}
+		}
 	}	
 	.item_single{
 		@include rem-fallback(width, 65.4);
@@ -41,6 +50,7 @@
 		@include rem-fallback(padding,0,0,4,0);
 		@include rem-fallback(margin,0,0,4,0);
 		white-space: nowrap;
+		display: block;
 
 		h5{
 			margin: 0;
@@ -59,6 +69,15 @@
 		img{
 			display: inline-block;
 			vertical-align: top;
+		}
+		a{
+			display: block;
+			&:hover{
+				color: #878A77;
+				h4,h5 {
+				color:#878A77;
+				}
+			}
 		}
 	}
 

@@ -7,9 +7,6 @@
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>
-<script src="script/html5.js" type="text/javascript"></script>
-<script src="script/jquery.js" type="text/javascript"></script>
-<script src="script/main.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -256,10 +253,10 @@
                 </p>  
             </div>
         </div>
-
         <?php include("includes/footer.php");?>
     </div><!--div wrap -->
-    
+    <script src="script/jquery.js" type="text/javascript"></script>
+    <script src="script/main.js" type="text/javascript"></script>
     
 </body>
 </html>
