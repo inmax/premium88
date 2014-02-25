@@ -973,38 +973,45 @@ header span div {
   display: block;
 }
 /* line 330, ../sass/_template.scss */
+#header-b div {
+  width: 500px;
+  width: 50rem;
+  height: 100%;
+  margin-left: 370px;
+  margin-left: 37rem;
+  padding-top: 87px;
+  padding-top: 8.7rem;
+  text-align: left;
+}
+/* line 337, ../sass/_template.scss */
 #header-b h2 {
   font-family: 'arimo';
+  width: 100%;
   text-shadow: 1px 0px 0px black;
   font-size: 28px;
   font-size: 2.8rem;
   color: #FFFFFF;
-  padding: 90px 125px 10px 125px;
-  padding: 9rem 12.5rem 1rem 12.5rem;
-  margin: 0px 0px 0px 270px;
-  margin: 0rem 0rem 0rem 27rem;
-  max-width: 900px;
-  max-width: 90rem;
+  padding: 0px 0px 14px 0px;
+  padding: 0rem 0rem 1.4rem 0rem;
   display: inline-block;
   text-align: center;
 }
-/* line 341, ../sass/_template.scss */
+/* line 347, ../sass/_template.scss */
 #header-b nav {
-  font-family: "museo";
-  padding: 0px 125px 0px 125px;
-  padding: 0rem 12.5rem 0rem 12.5rem;
-  color: #FFFFFF;
-  margin: 0px 0px 0px 270px;
-  margin: 0rem 0rem 0rem 27rem;
   width: 100%;
-  width: 754px;
-  width: 75.4rem;
+  font-family: "museo";
+  padding: 0px 0px 0px;
+  padding: 0rem 0rem 0rem;
+  color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+  margin: 0rem 0rem 0rem 0rem;
+  width: 100%;
   height: 55px;
   height: 5.5rem;
   display: inline-block;
   text-align: center;
 }
-/* line 353, ../sass/_template.scss */
+/* line 359, ../sass/_template.scss */
 #header-b ul {
   display: inline-block;
   text-align: center;
@@ -1014,7 +1021,7 @@ header span div {
   border-top: 1px #cb1417 inset;
   white-space: nowrap;
 }
-/* line 363, ../sass/_template.scss */
+/* line 369, ../sass/_template.scss */
 #header-b li {
   display: inline-block;
   width: 33.33%;
@@ -1022,20 +1029,20 @@ header span div {
   letter-spacing: 0;
   vertical-align: top;
 }
-/* line 370, ../sass/_template.scss */
+/* line 376, ../sass/_template.scss */
 #header-b li:last-child a {
   text-align: right;
 }
-/* line 375, ../sass/_template.scss */
+/* line 381, ../sass/_template.scss */
 #header-b li:first-child a {
   text-align: left;
   vertical-align: middle;
 }
-/* line 382, ../sass/_template.scss */
+/* line 388, ../sass/_template.scss */
 #header-b li:nth-child(2) a {
   text-align: center;
 }
-/* line 388, ../sass/_template.scss */
+/* line 394, ../sass/_template.scss */
 #header-b li a {
   display: block;
   text-align: left;
@@ -1047,7 +1054,7 @@ header span div {
   font-size: 22px;
   font-size: 2.2rem;
 }
-/* line 398, ../sass/_template.scss */
+/* line 404, ../sass/_template.scss */
 #header-b li span {
   display: inline-block;
   vertical-align: middle;
@@ -1058,7 +1065,7 @@ header span div {
   overflow: hidden;
 }
 
-/* line 410, ../sass/_template.scss */
+/* line 416, ../sass/_template.scss */
 #logo {
   position: absolute;
   top: -40px;
@@ -1071,7 +1078,7 @@ header span div {
   height: 28rem;
 }
 
-/* line 421, ../sass/_template.scss */
+/* line 427, ../sass/_template.scss */
 #menu {
   width: 220px;
   width: 22rem;
@@ -1083,16 +1090,16 @@ header span div {
   top: 34rem;
   z-index: 2;
 }
-/* line 428, ../sass/_template.scss */
+/* line 434, ../sass/_template.scss */
 #menu ul {
   width: 100%;
   height: 100%;
 }
-/* line 432, ../sass/_template.scss */
+/* line 438, ../sass/_template.scss */
 #menu li {
   width: 100%;
 }
-/* line 434, ../sass/_template.scss */
+/* line 440, ../sass/_template.scss */
 #menu li a {
   display: inline-block;
   width: 100%;
@@ -1126,15 +1133,15 @@ header span div {
   line-height: 60px;
   white-space: nowrap;
 }
-/* line 455, ../sass/_template.scss */
+/* line 461, ../sass/_template.scss */
 #menu li a p, #menu li a span {
   display: inline-block;
 }
-/* line 458, ../sass/_template.scss */
+/* line 464, ../sass/_template.scss */
 #menu li a p {
   text-align: left;
 }
-/* line 461, ../sass/_template.scss */
+/* line 467, ../sass/_template.scss */
 #menu li a span {
   position: absolute;
   right: 0;
@@ -1147,7 +1154,7 @@ header span div {
   overflow: hidden;
   vertical-align: middle;
 }
-/* line 472, ../sass/_template.scss */
+/* line 478, ../sass/_template.scss */
 #menu li a:hover {
   color: #FFFFFF;
   background: #8f9190;
@@ -1169,7 +1176,7 @@ header span div {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8f9190', endColorstr='#575756',GradientType=1 );
   /* IE6-8 fallback on horizontal gradient */
 }
-/* line 487, ../sass/_template.scss */
+/* line 493, ../sass/_template.scss */
 #menu li:first-child a {
   -webkit-border-top-left-radius: 20px;
   -webkit-border-top-right-radius: 20px;
@@ -1178,7 +1185,7 @@ header span div {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-/* line 497, ../sass/_template.scss */
+/* line 503, ../sass/_template.scss */
 #menu li:last-child a {
   border-bottom: none;
   -webkit-border-bottom-right-radius: 20px;
@@ -1189,7 +1196,7 @@ header span div {
   border-bottom-left-radius: 20px;
 }
 
-/* line 511, ../sass/_template.scss */
+/* line 517, ../sass/_template.scss */
 #container {
   width: 100%;
   height: auto;
@@ -1206,7 +1213,7 @@ header span div {
   z-index: 0;
 }
 
-/* line 522, ../sass/_template.scss */
+/* line 528, ../sass/_template.scss */
 #content {
   height: auto;
   width: 654px;
@@ -1214,7 +1221,7 @@ header span div {
   position: relative;
 }
 
-/* line 527, ../sass/_template.scss */
+/* line 533, ../sass/_template.scss */
 footer {
   position: absolute;
   margin-top: 260px;
@@ -1230,7 +1237,7 @@ footer {
   padding: 0.5rem 0.5rem 0.5rem 3rem;
 }
 
-/* line 538, ../sass/_template.scss */
+/* line 544, ../sass/_template.scss */
 .category {
   width: 654px;
   width: 65.4rem;
@@ -1244,7 +1251,7 @@ footer {
   white-space: nowrap;
   position: relative;
 }
-/* line 549, ../sass/_template.scss */
+/* line 555, ../sass/_template.scss */
 .category article {
   display: inline-block;
   position: relative;
@@ -1255,11 +1262,11 @@ footer {
   width: 37.4rem;
   height: 100%;
 }
-/* line 557, ../sass/_template.scss */
+/* line 563, ../sass/_template.scss */
 .category article p {
   line-height: 1.3em;
 }
-/* line 560, ../sass/_template.scss */
+/* line 566, ../sass/_template.scss */
 .category article span {
   position: absolute;
   display: block;
@@ -1268,7 +1275,7 @@ footer {
   margin-left: -85px;
   margin-left: -8.5rem;
 }
-/* line 569, ../sass/_template.scss */
+/* line 575, ../sass/_template.scss */
 .category img {
   display: inline-block;
   vertical-align: top;
@@ -1281,7 +1288,7 @@ footer {
 }
 
 /*__________Migas de pan*/
-/* line 580, ../sass/_template.scss */
+/* line 586, ../sass/_template.scss */
 .miga {
   display: block;
   overflow: hidden;
@@ -1290,21 +1297,21 @@ footer {
   position: absolute;
   top: 0;
 }
-/* line 586, ../sass/_template.scss */
+/* line 592, ../sass/_template.scss */
 .miga li {
   float: left;
   font-size: 20px;
   font-size: 2rem;
 }
-/* line 589, ../sass/_template.scss */
+/* line 595, ../sass/_template.scss */
 .miga li a {
   color: #FF7E80;
 }
-/* line 591, ../sass/_template.scss */
+/* line 597, ../sass/_template.scss */
 .miga li a:hover {
   text-decoration: underline;
 }
-/* line 597, ../sass/_template.scss */
+/* line 603, ../sass/_template.scss */
 .miga li:last-child a {
   color: #cb1417;
 }
@@ -1741,18 +1748,18 @@ table th, table td {
 
   /* line 11, ../sass/_mediaquery.scss */
   #header-b {
-    margin-left: 120px;
-    margin-left: 12rem;
+    margin-left: 130px;
+    margin-left: 13rem;
   }
   /* line 13, ../sass/_mediaquery.scss */
   #header-b h2 {
-    margin: 0px 0px 0px 400px;
-    margin: 0rem 0rem 0rem 40rem;
+    margin: 0px 0px 0px 0px;
+    margin: 0rem 0rem 0rem 0rem;
   }
   /* line 16, ../sass/_mediaquery.scss */
   #header-b nav {
-    margin: 0px 0px 0px 400px;
-    margin: 0rem 0rem 0rem 40rem;
+    margin: 0px 0px 0px 0px;
+    margin: 0rem 0rem 0rem 0rem;
   }
 
   /* line 23, ../sass/_mediaquery.scss */
@@ -1765,5 +1772,6 @@ table th, table td {
   	#logo{
   		@include rem-fallback(left,15);
   	}
+  
   */
 }

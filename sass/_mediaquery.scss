@@ -9,12 +9,12 @@
 				@include rem-fallback(padding, 10,5,0,50);		
 	}
 	#header-b{
-		@include rem-fallback(margin-left,12);
+		@include rem-fallback(margin-left,13);
 		h2,{
-			@include rem-fallback(margin,0,0,0,40);
+			@include rem-fallback(margin,0,0,0,0);
 		}
 		nav{
-			@include rem-fallback(margin,0,0,0,40);
+			@include rem-fallback(margin,0,0,0,0);
 
 		}
 
@@ -27,5 +27,6 @@
 	#logo{
 		@include rem-fallback(left,15);
 	}
+
 */
 }

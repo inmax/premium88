@@ -327,24 +327,30 @@ header{
 	position: absolute;
 	height: 100%;
 	display: block;
+	div{
+		@include rem-fallback(width,50);
+		height: 100%;
+		@include rem-fallback(margin-left,37);
+		@include rem-fallback(padding-top, 8.7);
+		text-align: left;
+	}
 	h2{
 		font-family:'arimo';
+		width: 100%;
 		text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
 		@include rem-fallback(font-size, 2.8);
 		color:#FFFFFF;
-		@include rem-fallback(padding, 9,12.5,1,12.5);
-		@include rem-fallback(margin, 0,0,0,27);
-		@include rem-fallback(max-width, 90);
+		@include rem-fallback(padding, 0,0,1.4,0);
 		display: inline-block;
 		text-align: center;
 	}
 	nav{
-		font-family: $font-titular;
-		@include rem-fallback(padding, 0,12.5,0,12.5);
-		color:#FFFFFF;	
-		@include rem-fallback(margin, 0,0,0,27);
 		width: 100%;
-		@include rem-fallback(width, 75.4);
+		font-family: $font-titular;
+		@include rem-fallback(padding, 0,0,0);
+		color:#FFFFFF;	
+		@include rem-fallback(margin, 0,0,0,0);
+		width: 100%;
 		@include rem-fallback(height, 5.5);
 		display: inline-block;
 		text-align: center;
