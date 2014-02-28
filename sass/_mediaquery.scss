@@ -1,12 +1,13 @@
 @media only screen and (min-width:1025px){ 
-	#container{
+	#container,{
 				@include rem-fallback(padding, 10,5,0,37);		
 	}
+	
 
 }
 
 @media only screen and (min-width:1601px){ 
-	#container{
+	#container, #container_about{
 				@include rem-fallback(padding, 10,5,0,50);		
 	}
 	#header-b{

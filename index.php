@@ -100,8 +100,9 @@
             
         </section><!--div container -->
 
-        <?php include("includes/footer.php");?>
+        
     </div><!--div wrap -->
+    <?php include("includes/footer.php");?>
     <script src="script/jquery.js" type="text/javascript"></script>
     <script src="script/main.js" type="text/javascript"></script>
     

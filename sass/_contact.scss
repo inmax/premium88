@@ -1,0 +1,54 @@
+#container_contact{
+	width: 100%;
+	@include rem-fallback(max-width, 120);
+	height: auto;
+	@include rem-fallback(margin-top, 24);
+	@include rem-fallback(padding,10,5,10);
+	background-color: red;
+	vertical-align: top;
+	text-align: left;
+}
+#contact{
+	@include rem-fallback(max-width,54);
+	width: 60%;
+	@include rem-fallback(min-width,32);
+	height: auto;
+	@include rem-fallback(padding,0,5);
+	background:blue;
+	display: inline-block;
+}
+#contact + div{
+	width: 40%;
+	height: 100%;
+	background:green;
+	display: inline-block;	
+}
+form{	
+	width: 100%;
+	height: auto;
+	label{
+		display: block;
+	}
+	input{
+		width:80%;
+		@include rem-fallback(min-width, 24);
+		@include rem-fallback(height,3.6);
+		background:yellow;
+		@include rem-fallback(margin-bottom,2);	
+	}
+	textarea{
+		width: 100%;
+		@include rem-fallback(min-height, 15.5);
+		@include rem-fallback(margin-bottom,2)
+	}
+	input[type=submit]{
+		@include rem-fallback(width,14.5);
+		@include rem-fallback(height,3.6);
+		@include rem-fallback(min-width,0);
+		@include rem-fallback(margin,0);
+		@include rem-fallback(padding,0);
+	}
+
+}
+
+

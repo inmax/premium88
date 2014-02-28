@@ -61,6 +61,10 @@
 	@include rem-fallback(font-size, 2);
 	color: $color1;
 }
+.strong{
+	font-family: 'gentium-bold';
+
+}
 
 .btn{
 	display:block;
@@ -517,22 +521,16 @@ header{
 #container{
 	width: 100%;
 	height: auto;
-	@include rem-fallback(min-height, 100%);
-	position: relative;
-	@include rem-fallback(top, 24);
 	@include rem-fallback(padding, 10,5,0,32);//para ipad padding izq 50
-	@include rem-fallback(margin, 0,0,5,0);
+	@include rem-fallback(margin, 24,0,5,0);
 	background: #FFFFFF;
 	z-index: 0;
 }
 #content{
 	height:auto;
 	@include rem-fallback(width, 65.4);
-	position: relative;
 }
 footer{
-	position: absolute;
-	@include rem-fallback(margin-top, 26);
 	width: 100%;
 	@include rem-fallback(height, 4);
 	@include rem-fallback(font-size, 1.6);
