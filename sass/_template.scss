@@ -252,6 +252,21 @@ a:hover{
 		@include rem-fallback(margin, 0,5,0,5);
 	}
 }
+.M20{
+	@include rem-fallback(margin, 2);
+	&.MTop{
+		@include rem-fallback(margin, 2,0,0,0);
+	}
+	&.MBot{
+		@include rem-fallback(margin, 0,0,2,0);
+	}
+	&.MLeft{
+		@include rem-fallback(margin, 0,0,0,2);
+	}
+	&.MSide{
+		@include rem-fallback(margin, 0,2,0,2);
+	}
+}
 .letra_capital:first-letter {
 	font-size: 2em;
 }
@@ -280,7 +295,7 @@ header{
 	position: absolute;
 	top:0;
 	left:0;
-	z-index: 1;
+	z-index: 5;
 	span{
 		display: block;
 		width: 100%;
@@ -336,15 +351,15 @@ header{
 	div{
 		@include rem-fallback(width,50);
 		height: 100%;
-		@include rem-fallback(padding-top, 8.7);
+		@include rem-fallback(padding-top, 7.5);
 		margin: 0 auto;
 		text-align: left;
 	}
 	h2{
-		font-family:'arimo';
+		font-family:'gentium';
 		width: 100%;
 		text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
-		@include rem-fallback(font-size, 2.8);
+		@include rem-fallback(font-size, 3.3);
 		color:#FFFFFF;
 		@include rem-fallback(padding, 0,0,1.4,0);
 		display: inline-block;

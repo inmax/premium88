@@ -14,9 +14,10 @@
     <div id="wrap">
         <?php include("includes/header-b.php");?>
         <?php include("includes/header_responsive.php");?>
+           
             <div id="cabecera"><!--cabecera -->
                     <h3 class="titulos-section">About us</h3>
-                    <img src=""/><!--foto de los tres juntos -->
+                    <img src="images/about.png"/><!--foto de los tres juntos -->
                 </div>
             <div id="container_about">   
                 <section class="cuerpo_a"><!-- perfiles-->
@@ -65,7 +66,7 @@
                                 <li>• Senior surgeon at the Plastic Surgery Department, directed by Dr. Pedro Sanguino Campón in Hospital Sur (Capio Group, Alcorcón) since September 2004
                                 </li>   
                             </ul>
-                            <img src="images/cirugia.jpg" height="2000" width="3008">
+                            <img src="images/cirugia.jpg" class="M20 MBot">
                             <p class="strong">
                                 Aesthetic Medicine:
                             </p>
@@ -77,7 +78,7 @@
                             <p class="strong">
                                Staff Doctor and script writer at the prime time TV Show “El Hormiguero” broadcasted by Antena3 Televisión, since September 2008. 
                             </p>
-                            <img src="images/melendi.jpg" height="639" width="960"/>
+                            <img src="images/melendi.jpg" height="639" width="960"  class="M20 MBot"/>
                         </div>
                         
                     </article>

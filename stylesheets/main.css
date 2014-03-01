@@ -876,21 +876,47 @@ a:hover .icon_e {
 }
 
 /* line 255, ../sass/_template.scss */
+.M20 {
+  margin: 20px;
+  margin: 2rem;
+}
+/* line 257, ../sass/_template.scss */
+.M20.MTop {
+  margin: 20px 0px 0px 0px;
+  margin: 2rem 0rem 0rem 0rem;
+}
+/* line 260, ../sass/_template.scss */
+.M20.MBot {
+  margin: 0px 0px 20px 0px;
+  margin: 0rem 0rem 2rem 0rem;
+}
+/* line 263, ../sass/_template.scss */
+.M20.MLeft {
+  margin: 0px 0px 0px 20px;
+  margin: 0rem 0rem 0rem 2rem;
+}
+/* line 266, ../sass/_template.scss */
+.M20.MSide {
+  margin: 0px 20px 0px 20px;
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+/* line 270, ../sass/_template.scss */
 .letra_capital:first-letter {
   font-size: 2em;
 }
 
-/* line 259, ../sass/_template.scss */
+/* line 274, ../sass/_template.scss */
 .left {
   text-align: left;
 }
 
-/* line 262, ../sass/_template.scss */
+/* line 277, ../sass/_template.scss */
 .right {
   text-align: right;
 }
 
-/* line 267, ../sass/_template.scss */
+/* line 282, ../sass/_template.scss */
 html, body, #wrap {
   width: 100%;
   height: auto;
@@ -900,12 +926,12 @@ html, body, #wrap {
   color: #000000;
 }
 
-/* line 274, ../sass/_template.scss */
+/* line 289, ../sass/_template.scss */
 #warp {
   height: auto;
 }
 
-/* line 277, ../sass/_template.scss */
+/* line 292, ../sass/_template.scss */
 header {
   width: 100%;
   height: 240px;
@@ -913,9 +939,9 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 5;
 }
-/* line 284, ../sass/_template.scss */
+/* line 299, ../sass/_template.scss */
 header span {
   display: block;
   width: 100%;
@@ -925,7 +951,7 @@ header span {
   padding: 0.5rem;
   text-align: right;
 }
-/* line 290, ../sass/_template.scss */
+/* line 305, ../sass/_template.scss */
 header span a {
   display: inline-block;
   color: #575756;
@@ -940,11 +966,11 @@ header span a {
   font-size: 16px;
   font-size: 1.6rem;
 }
-/* line 301, ../sass/_template.scss */
+/* line 316, ../sass/_template.scss */
 header span a:last-child {
   border-right: none;
 }
-/* line 304, ../sass/_template.scss */
+/* line 319, ../sass/_template.scss */
 header span div {
   display: inline-block;
   width: 35px;
@@ -957,7 +983,7 @@ header span div {
   vertical-align: middle;
 }
 
-/* line 318, ../sass/_template.scss */
+/* line 333, ../sass/_template.scss */
 .rawpper_header {
   width: 100%;
   height: 200px;
@@ -971,7 +997,7 @@ header span div {
   position: relative;
 }
 
-/* line 330, ../sass/_template.scss */
+/* line 345, ../sass/_template.scss */
 #header-b {
   height: 100%;
   display: block;
@@ -979,30 +1005,30 @@ header span div {
   position: relative;
   margin: 0 auto;
 }
-/* line 336, ../sass/_template.scss */
+/* line 351, ../sass/_template.scss */
 #header-b div {
   width: 500px;
   width: 50rem;
   height: 100%;
-  padding-top: 87px;
-  padding-top: 8.7rem;
+  padding-top: 75px;
+  padding-top: 7.5rem;
   margin: 0 auto;
   text-align: left;
 }
-/* line 343, ../sass/_template.scss */
+/* line 358, ../sass/_template.scss */
 #header-b h2 {
-  font-family: 'arimo';
+  font-family: 'gentium';
   width: 100%;
   text-shadow: 1px 0px 0px black;
-  font-size: 28px;
-  font-size: 2.8rem;
+  font-size: 33px;
+  font-size: 3.3rem;
   color: #FFFFFF;
   padding: 0px 0px 14px 0px;
   padding: 0rem 0rem 1.4rem 0rem;
   display: inline-block;
   text-align: center;
 }
-/* line 353, ../sass/_template.scss */
+/* line 368, ../sass/_template.scss */
 #header-b nav {
   width: 100%;
   font-family: "museo";
@@ -1017,7 +1043,7 @@ header span div {
   display: inline-block;
   text-align: center;
 }
-/* line 365, ../sass/_template.scss */
+/* line 380, ../sass/_template.scss */
 #header-b ul {
   display: inline-block;
   text-align: center;
@@ -1027,7 +1053,7 @@ header span div {
   border-top: 1px #cb1417 inset;
   white-space: nowrap;
 }
-/* line 375, ../sass/_template.scss */
+/* line 390, ../sass/_template.scss */
 #header-b li {
   display: inline-block;
   width: 33.33%;
@@ -1035,20 +1061,20 @@ header span div {
   letter-spacing: 0;
   vertical-align: top;
 }
-/* line 382, ../sass/_template.scss */
+/* line 397, ../sass/_template.scss */
 #header-b li:last-child a {
   text-align: right;
 }
-/* line 387, ../sass/_template.scss */
+/* line 402, ../sass/_template.scss */
 #header-b li:first-child a {
   text-align: left;
   vertical-align: middle;
 }
-/* line 394, ../sass/_template.scss */
+/* line 409, ../sass/_template.scss */
 #header-b li:nth-child(2) a {
   text-align: center;
 }
-/* line 400, ../sass/_template.scss */
+/* line 415, ../sass/_template.scss */
 #header-b li a {
   display: block;
   text-align: left;
@@ -1060,7 +1086,7 @@ header span div {
   font-size: 22px;
   font-size: 2.2rem;
 }
-/* line 410, ../sass/_template.scss */
+/* line 425, ../sass/_template.scss */
 #header-b li span {
   display: inline-block;
   vertical-align: middle;
@@ -1071,7 +1097,7 @@ header span div {
   overflow: hidden;
 }
 
-/* line 422, ../sass/_template.scss */
+/* line 437, ../sass/_template.scss */
 #logo {
   position: absolute;
   top: -40px;
@@ -1085,12 +1111,12 @@ header span div {
   left: 50%;
 }
 
-/* line 431, ../sass/_template.scss */
+/* line 446, ../sass/_template.scss */
 .head-res {
   display: none;
 }
 
-/* line 436, ../sass/_template.scss */
+/* line 451, ../sass/_template.scss */
 #menu {
   width: 220px;
   width: 22rem;
@@ -1103,16 +1129,16 @@ header span div {
   left: 50%;
   z-index: 2;
 }
-/* line 444, ../sass/_template.scss */
+/* line 459, ../sass/_template.scss */
 #menu ul {
   width: 100%;
   height: 100%;
 }
-/* line 448, ../sass/_template.scss */
+/* line 463, ../sass/_template.scss */
 #menu li {
   width: 100%;
 }
-/* line 450, ../sass/_template.scss */
+/* line 465, ../sass/_template.scss */
 #menu li a {
   display: inline-block;
   width: 100%;
@@ -1146,15 +1172,15 @@ header span div {
   line-height: 60px;
   white-space: nowrap;
 }
-/* line 471, ../sass/_template.scss */
+/* line 486, ../sass/_template.scss */
 #menu li a p, #menu li a span {
   display: inline-block;
 }
-/* line 474, ../sass/_template.scss */
+/* line 489, ../sass/_template.scss */
 #menu li a p {
   text-align: left;
 }
-/* line 477, ../sass/_template.scss */
+/* line 492, ../sass/_template.scss */
 #menu li a span {
   position: absolute;
   right: 0;
@@ -1167,7 +1193,7 @@ header span div {
   overflow: hidden;
   vertical-align: middle;
 }
-/* line 488, ../sass/_template.scss */
+/* line 503, ../sass/_template.scss */
 #menu li a:hover {
   color: #FFFFFF;
   background: #8f9190;
@@ -1189,7 +1215,7 @@ header span div {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8f9190', endColorstr='#575756',GradientType=1 );
   /* IE6-8 fallback on horizontal gradient */
 }
-/* line 503, ../sass/_template.scss */
+/* line 518, ../sass/_template.scss */
 #menu li:first-child a {
   -webkit-border-top-left-radius: 20px;
   -webkit-border-top-right-radius: 20px;
@@ -1198,7 +1224,7 @@ header span div {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-/* line 513, ../sass/_template.scss */
+/* line 528, ../sass/_template.scss */
 #menu li:last-child a {
   border-bottom: none;
   -webkit-border-bottom-right-radius: 20px;
@@ -1209,7 +1235,7 @@ header span div {
   border-bottom-left-radius: 20px;
 }
 
-/* line 527, ../sass/_template.scss */
+/* line 542, ../sass/_template.scss */
 #container {
   width: 100%;
   min-width: 1260px;
@@ -1221,7 +1247,7 @@ header span div {
   z-index: 0;
 }
 
-/* line 536, ../sass/_template.scss */
+/* line 551, ../sass/_template.scss */
 #content {
   height: auto;
   width: 654px;
@@ -1230,7 +1256,7 @@ header span div {
   position: relative;
 }
 
-/* line 542, ../sass/_template.scss */
+/* line 557, ../sass/_template.scss */
 footer {
   width: 100%;
   height: 40px;
@@ -1243,7 +1269,7 @@ footer {
   padding: 0.5rem 0.5rem 0.5rem 3rem;
 }
 
-/* line 551, ../sass/_template.scss */
+/* line 566, ../sass/_template.scss */
 .category {
   width: 654px;
   width: 65.4rem;
@@ -1257,7 +1283,7 @@ footer {
   white-space: nowrap;
   position: relative;
 }
-/* line 562, ../sass/_template.scss */
+/* line 577, ../sass/_template.scss */
 .category article {
   display: inline-block;
   position: relative;
@@ -1268,11 +1294,11 @@ footer {
   width: 37.4rem;
   height: 100%;
 }
-/* line 570, ../sass/_template.scss */
+/* line 585, ../sass/_template.scss */
 .category article p {
   line-height: 1.3em;
 }
-/* line 573, ../sass/_template.scss */
+/* line 588, ../sass/_template.scss */
 .category article span {
   position: absolute;
   display: block;
@@ -1281,7 +1307,7 @@ footer {
   margin-left: -85px;
   margin-left: -8.5rem;
 }
-/* line 582, ../sass/_template.scss */
+/* line 597, ../sass/_template.scss */
 .category img {
   display: inline-block;
   vertical-align: top;
@@ -1294,7 +1320,7 @@ footer {
 }
 
 /*__________Migas de pan*/
-/* line 593, ../sass/_template.scss */
+/* line 608, ../sass/_template.scss */
 .miga {
   display: block;
   overflow: hidden;
@@ -1303,21 +1329,21 @@ footer {
   position: absolute;
   top: -100px;
 }
-/* line 599, ../sass/_template.scss */
+/* line 614, ../sass/_template.scss */
 .miga li {
   float: left;
   font-size: 20px;
   font-size: 2rem;
 }
-/* line 602, ../sass/_template.scss */
+/* line 617, ../sass/_template.scss */
 .miga li a {
   color: #FF7E80;
 }
-/* line 604, ../sass/_template.scss */
+/* line 619, ../sass/_template.scss */
 .miga li a:hover {
   text-decoration: underline;
 }
-/* line 610, ../sass/_template.scss */
+/* line 625, ../sass/_template.scss */
 .miga li:last-child a {
   color: #cb1417;
 }
@@ -1479,21 +1505,44 @@ form input[type=submit] {
 /* line 62, ../sass/_about.scss */
 #cabecera {
   display: block;
-  width: 100%;
-  z-index: 0;
+  width: 1200px;
+  width: 120rem;
+  z-index: 1;
   height: 350px;
   height: 35rem;
-  margin-top: 140px;
-  margin-top: 14rem;
+  margin: 240px auto 0;
   position: relative;
-  background-color: #C0C0C0;
 }
-/* line 70, ../sass/_about.scss */
+/* line 69, ../sass/_about.scss */
+#cabecera img {
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  margin-left: -40rem;
+  text-align: center;
+  z-index: 2;
+}
+/* line 76, ../sass/_about.scss */
 #cabecera h3 {
   position: absolute;
   bottom: 0;
-  left: 50px;
-  z-index: 2;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+/* line 84, ../sass/_about.scss */
+#cabecera:after {
+  content: "";
+  position: absolute;
+  width: 1920px;
+  width: 192rem;
+  left: 50%;
+  margin-left: -960px;
+  margin-left: -96rem;
+  height: 350px;
+  height: 35rem;
+  z-index: 0;
+  background: #DDDED8;
 }
 
 /* line 4, ../sass/_template_products.scss */
