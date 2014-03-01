@@ -1,34 +1,34 @@
-@media only screen and (min-width:1025px){ 
-	#container,{
-				@include rem-fallback(padding, 10,5,0,37);		
-	}
+// @media only screen and (min-width:1025px){ 
+// 	#container,{
+// 				@include rem-fallback(padding, 10,5,0,37);		
+// 	}
 	
 
-}
+// }
 
-@media only screen and (min-width:1601px){ 
-	#container, #container_about{
-				@include rem-fallback(padding, 10,5,0,50);		
-	}
-	#header-b{
-		@include rem-fallback(margin-left,13);
-		h2,{
-			@include rem-fallback(margin,0,0,0,0);
-		}
-		nav{
-			@include rem-fallback(margin,0,0,0,0);
+// @media only screen and (min-width:1601px){ 
+// 	#container, #container_about{
+// 				@include rem-fallback(padding, 10,5,0,50);		
+// 	}
+// 	#header-b{
+// 		@include rem-fallback(margin-left,13);
+// 		h2,{
+// 			@include rem-fallback(margin,0,0,0,0);
+// 		}
+// 		nav{
+// 			@include rem-fallback(margin,0,0,0,0);
 
-		}
+// 		}
 
-	}
+// 	}
 	
-	#menu{
-		@include rem-fallback(left,18);
-	}
-	/*
-	#logo{
-		@include rem-fallback(left,15);
-	}
+// 	#menu{
+// 		@include rem-fallback(left,18);
+// 	}
+// 	/*
+// 	#logo{
+// 		@include rem-fallback(left,15);
+// 	}
 
-*/
-}
+// */
+// }

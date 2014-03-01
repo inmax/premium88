@@ -6,10 +6,8 @@
 	text-align: left;
 	
 	section{
-		width: 100%;
-		@include rem-fallback(max-width, 102.4);
+		width: 924px;
 		height: auto;
-		@include rem-fallback(padding, 5,5,0,32);
 		z-index: 0;
 
 	}

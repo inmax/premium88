@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -15,7 +16,7 @@
     <div id="wrap">
         <?php include("includes/header.php");?>
         <section id="container">
-            
+            <?php include("includes/menu.php");?>
             <div id="content" class="section_wine cuerpo_b">
                 <h3 class="titulos-section M40 MBot">
                     Gourmet Food

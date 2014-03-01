@@ -328,14 +328,16 @@ header{
 
 }
 #header-b{
-	position: absolute;
 	height: 100%;
 	display: block;
+	width: 1260px;
+	position: relative;
+	margin: 0 auto;
 	div{
 		@include rem-fallback(width,50);
 		height: 100%;
-		@include rem-fallback(margin-left,37);
 		@include rem-fallback(padding-top, 8.7);
+		margin: 0 auto;
 		text-align: left;
 	}
 	h2{
@@ -420,9 +422,10 @@ header{
 #logo{
 	position: absolute;
 	@include rem-fallback(top,-4);
-	@include rem-fallback(left,3);
 	@include rem-fallback(width,28);
 	@include rem-fallback(height,28);
+	@include rem-fallback(margin-left, -63);
+	left: 50%;
 	}
 
 
@@ -432,8 +435,9 @@ header{
 	@include rem-fallback(width,22);
 	height: auto;
 	position:absolute;
-	@include rem-fallback(left,5);
-	@include rem-fallback(top,34);
+	@include rem-fallback(margin-left, -60);
+	@include rem-fallback(top,0);
+	left: 50%;
 	z-index: 2;
 	ul{
 		width:100%;
@@ -520,15 +524,18 @@ header{
 }
 #container{
 	width: 100%;
+	min-width: 1260px;
+	position: relative;
 	height: auto;
-	@include rem-fallback(padding, 10,5,0,32);//para ipad padding izq 50
-	@include rem-fallback(margin, 24,0,5,0);
+	@include rem-fallback(margin, 34,0,5,0);
 	background: #FFFFFF;
 	z-index: 0;
 }
 #content{
 	height:auto;
 	@include rem-fallback(width, 65.4);
+	margin: 0 auto;
+	position: relative;
 }
 footer{
 	width: 100%;
@@ -586,7 +593,7 @@ footer{
 	overflow: hidden;
 	@include rem-fallback(margin, 2, 0);
 	position: absolute;
-	top: 0;
+	top: -100px;
  	li {
  		float: left;
  		@include rem-fallback(font-size, 2);
