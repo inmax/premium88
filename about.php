@@ -18,7 +18,7 @@
                     <img src=""/><!--foto de los tres juntos -->
                 </div>
             <div id="container_about">   
-                <section class="cuerpo_a" id="content"><!-- perfiles-->
+                <section class="cuerpo_a"><!-- perfiles-->
                     <article>
                         <img src="images/roberto-atanes.jpg"/>
                         <div><!--columna1 -->
@@ -40,12 +40,12 @@
                             <p>
                                 Below you will find some of my proffesional achievements:
                             </p>
-                            <ul class="">
+                            <ul class="strong">
                                 <li>• Member of the Spanish Association of Surgeons (AEC)</li>
                                 <li>• Member of the Spanish Society of Aesthetic Medicine</li>
                                 <li>• PhD in Medicine and Surgery at Universidad Autónoma de Madrid (2003)</li>
                             </ul>
-                            <p>
+                            <p class="strong">
                                 General and Digestive Surgeon:  
                             </p>
                             <ul>
@@ -57,13 +57,15 @@
                                 </li>
                             </ul>
 
-                            <p>
+                            <p class="strong">
                                Plastic Surgery: 
                             </p>
                             <ul>
-                                <li>• Senior surgeon at the Plastic Surgery Department, directed by Dr. Pedro Sanguino Campón in Hospital Sur (Capio Group, Alcorcón) since September 2004</li>
+                                <li>• Senior surgeon at the Plastic Surgery Department, directed by Dr. Pedro Sanguino Campón in Hospital Sur (Capio Group, Alcorcón) since September 2004
+                                </li>   
                             </ul>
-                            <p>
+                            <img src="images/cirugia.jpg" height="2000" width="3008">
+                            <p class="strong">
                                 Aesthetic Medicine:
                             </p>
                             <ul>
@@ -71,9 +73,10 @@
                                     • Medical Director at Body Atelier Medical and Aesthetic Center from June 2007 to September 2008
                                 </li>
                             </ul>
-                            <p>
+                            <p class="strong">
                                Staff Doctor and script writer at the prime time TV Show “El Hormiguero” broadcasted by Antena3 Televisión, since September 2008. 
                             </p>
+                            <img src="images/melendi.jpg" height="639" width="960"/>
                         </div>
                         
                     </article>
@@ -83,7 +86,7 @@
                             <h4 class="titulos-c">
                                 Roberto Atanes Torres
                             </h4>
-                            <p class="letra_capital">
+                            <p>
                                 • I’ve been an entrepreneur since the nineties focusing on international projects where I have been working during the last 18 years.
                             </p>
                             <p>

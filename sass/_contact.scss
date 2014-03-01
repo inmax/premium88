@@ -1,27 +1,34 @@
 #container_contact{
-	width: 100%;
-	@include rem-fallback(max-width, 120);
+	@include rem-fallback(max-width,92.4);
 	height: auto;
-	@include rem-fallback(margin-top, 24);
 	@include rem-fallback(padding,10,5,10);
-	background-color: red;
 	vertical-align: top;
 	text-align: left;
+	white-space: nowrap;
+	margin:240px auto 0;
 }
 #contact{
-	@include rem-fallback(max-width,54);
 	width: 60%;
 	@include rem-fallback(min-width,32);
 	height: auto;
 	@include rem-fallback(padding,0,5);
-	background:blue;
 	display: inline-block;
+	text-align: left; 
+	h3+p{
+		color:#000000;
+	}
+	vertical-align: top;
+	white-space: normal;
+	border-left: 1px dashed #A39E9E;
 }
 #contact + div{
 	width: 40%;
 	height: 100%;
-	background:green;
 	display: inline-block;	
+	vertical-align: top;
+	overflow: hidden;
+
+
 }
 form{	
 	width: 100%;
@@ -33,13 +40,14 @@ form{
 		width:80%;
 		@include rem-fallback(min-width, 24);
 		@include rem-fallback(height,3.6);
-		background:yellow;
+		background:#E3E4E0;
 		@include rem-fallback(margin-bottom,2);	
 	}
 	textarea{
 		width: 100%;
 		@include rem-fallback(min-height, 15.5);
-		@include rem-fallback(margin-bottom,2)
+		@include rem-fallback(margin-bottom,3);
+		background:#E3E4E0;
 	}
 	input[type=submit]{
 		@include rem-fallback(width,14.5);

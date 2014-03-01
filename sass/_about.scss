@@ -9,6 +9,7 @@
 		width: 924px;
 		height: auto;
 		z-index: 0;
+		margin: 0 auto;
 
 	}
 	article{
@@ -21,14 +22,27 @@
 		@include rem-fallback(margin-bottom,1.5);
 
 		div{
-			width: 70%;
+			width: 60%;
 			height: auto;
 			display: inline-block;
 			white-space: normal;
 			@include rem-fallback(padding,0,0,3,2);
+			img{
+				border-radius:0;
+				text-align: center;
+				display: inline-block;
+				width: 100%;
+				height:auto;
+			}
+			ul{
+				@include rem-fallback(padding, 0,0,2,3);
+			}
 		}
 		img{
-			width: 30%;
+			width: 20%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
 			display: inline-block;
 			vertical-align: top;
 			-webkit-box-shadow: 0px -1px 2px 0px rgba(50, 50, 50, 0.75);

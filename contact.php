@@ -14,25 +14,25 @@
     <div id="wrap">
         <?php include("includes/header-b.php");?>
         <div id="container_contact">
-            <div id="contact">
-                <h3 class="titulos-b">Contac us</h3>
-                <p  class="titulos-d">Get In Touch</p>
-                <p>Fill out the form below or call us at 917.670.3314.</p>
+            <div id="contact" class="cuerpo_a">
+                <h3 class="titulos-section P30 PBot">Contac us</h3>
+                <p  class="titulos-b P15 PBot">Get In Touch</p>
+                <p class="P30 PBot">Fill out the form below or call us at 917.670.3314.</p>
             
                 <form action = "controllers/mail.php" method="POST" enctype="application/x-www-form-urlencoded">
                         <label for="name">Name</label> 
                         <input type="text" name = "name" id="name" required/>
                        <!-- <input  type="tel" name="telefono" maxlength="9" placeholder="Teléfono"/>-->
-                        <label for="email">Name</label> 
+                        <label for="email">Email</label> 
                         <input type="email " name="email" id="email" required/>
-                        <label for="message">Name</label> 
+                        <label for="message">Message</label> 
                         <textarea name="message" id="message"maxlength = "200" required> 
                         </textarea>
                         <input id="submit" type="submit" value="Submit" class="btn"/>
                 </form>
             </div>
             <div>
-                <img src="images/"/>
+                <img src="images/premium-contact.jpg" height="590" width="412"/>
             </div>    
         </div><!--div container-contact -->
     <?php include("includes/footer.php");?>
