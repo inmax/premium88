@@ -25,7 +25,7 @@
 							</a>
 						</li>
 						<li>
-							<a class="right" href="contact.php">Contac us </a>
+							<a class="right" href="contact.php">Contact us </a>
 								
 						</li>
 						

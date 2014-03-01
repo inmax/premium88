@@ -61,33 +61,19 @@
 }
 #cabecera{
 		display:block;
-		@include rem-fallback(width, 120);
+		width: 100%;
 		z-index: 1;
-		@include rem-fallback(height, 35);
 		margin: 240px auto 0;
 		position: relative;
+		background: rgb(230, 230, 230);
 		img{
-			position: absolute;
-			left: 50%;
-			@include rem-fallback(margin-left,-40);
-			text-align: center;
-			z-index: 2;
+			@include rem-fallback(width, 40);
+			display: block;
+			margin: 0 auto;
 		}
 		h3{
-			position: absolute;
-			bottom:0;
+			@include rem-fallback(width, 92.4);
+			display: block;
 			margin: 0 auto;
-			z-index: 3;
-
 	}
 }
-#cabecera:after { content: ""; 
-				position: absolute;
-				@include rem-fallback(width,192);
-				left: 50%;
-				@include rem-fallback(margin-left, -96);
-				@include rem-fallback(height, 35);
-				z-index: 0;
-				background: #DDDED8;
-				}
-

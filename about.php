@@ -16,8 +16,8 @@
         <?php include("includes/header_responsive.php");?>
            
             <div id="cabecera"><!--cabecera -->
-                    <h3 class="titulos-section">About us</h3>
                     <img src="images/about.png"/><!--foto de los tres juntos -->
+                    <h3 class="titulos-section">About us</h3>
                 </div>
             <div id="container_about">   
                 <section class="cuerpo_a"><!-- perfiles-->

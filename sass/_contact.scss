@@ -40,13 +40,16 @@ form{
 		@include rem-fallback(min-width, 24);
 		@include rem-fallback(height,3.6);
 		background:#E3E4E0;
-		@include rem-fallback(margin-bottom,2);	
+		@include rem-fallback(margin-bottom,2);
+		border-radius: 5px;
 	}
 	textarea{
 		width: 100%;
 		@include rem-fallback(min-height, 15.5);
 		@include rem-fallback(margin-bottom,3);
 		background:#E3E4E0;
+		text-align: left;
+		border-radius: 5px;
 	}
 	input[type=submit]{
 		@include rem-fallback(width,14.5);

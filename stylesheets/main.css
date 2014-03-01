@@ -1406,8 +1406,9 @@ form input {
   background: #E3E4E0;
   margin-bottom: 20px;
   margin-bottom: 2rem;
+  border-radius: 5px;
 }
-/* line 45, ../sass/_contact.scss */
+/* line 46, ../sass/_contact.scss */
 form textarea {
   width: 100%;
   min-height: 155px;
@@ -1415,8 +1416,10 @@ form textarea {
   margin-bottom: 30px;
   margin-bottom: 3rem;
   background: #E3E4E0;
+  text-align: left;
+  border-radius: 5px;
 }
-/* line 51, ../sass/_contact.scss */
+/* line 54, ../sass/_contact.scss */
 form input[type=submit] {
   width: 145px;
   width: 14.5rem;
@@ -1505,44 +1508,25 @@ form input[type=submit] {
 /* line 62, ../sass/_about.scss */
 #cabecera {
   display: block;
-  width: 1200px;
-  width: 120rem;
+  width: 100%;
   z-index: 1;
-  height: 350px;
-  height: 35rem;
   margin: 240px auto 0;
   position: relative;
+  background: #e6e6e6;
 }
 /* line 69, ../sass/_about.scss */
 #cabecera img {
-  position: absolute;
-  left: 50%;
-  margin-left: -400px;
-  margin-left: -40rem;
-  text-align: center;
-  z-index: 2;
-}
-/* line 76, ../sass/_about.scss */
-#cabecera h3 {
-  position: absolute;
-  bottom: 0;
+  width: 400px;
+  width: 40rem;
+  display: block;
   margin: 0 auto;
-  z-index: 3;
 }
-
-/* line 84, ../sass/_about.scss */
-#cabecera:after {
-  content: "";
-  position: absolute;
-  width: 1920px;
-  width: 192rem;
-  left: 50%;
-  margin-left: -960px;
-  margin-left: -96rem;
-  height: 350px;
-  height: 35rem;
-  z-index: 0;
-  background: #DDDED8;
+/* line 74, ../sass/_about.scss */
+#cabecera h3 {
+  width: 924px;
+  width: 92.4rem;
+  display: block;
+  margin: 0 auto;
 }
 
 /* line 4, ../sass/_template_products.scss */
@@ -2218,29 +2202,28 @@ table th, table td {
   }
   /* line 176, ../sass/_responsive.scss */
   #container .item_detail img {
-    width: 40%;
-    float: left;
+    display: none;
   }
-  /* line 180, ../sass/_responsive.scss */
+  /* line 179, ../sass/_responsive.scss */
   #container .item_detail div {
-    width: 60%;
-    float: left;
+    width: 100%;
+    border: 10px solid #DBDBDB;
   }
-  /* line 186, ../sass/_responsive.scss */
+  /* line 185, ../sass/_responsive.scss */
   #container .collection ul {
     display: table;
   }
-  /* line 189, ../sass/_responsive.scss */
+  /* line 188, ../sass/_responsive.scss */
   #container .collection li {
     display: table-cell;
     width: 25%;
   }
-  /* line 192, ../sass/_responsive.scss */
+  /* line 191, ../sass/_responsive.scss */
   #container .collection li a {
     height: auto;
   }
 
-  /* line 198, ../sass/_responsive.scss */
+  /* line 197, ../sass/_responsive.scss */
   #back-top {
     bottom: 20px;
     position: fixed;
@@ -2248,7 +2231,7 @@ table th, table td {
     z-index: 2050;
   }
 
-  /* line 204, ../sass/_responsive.scss */
+  /* line 203, ../sass/_responsive.scss */
   #back-top a {
     display: block;
     transition: all 0.5s ease 0s;
@@ -2259,33 +2242,76 @@ table th, table td {
   }
 
   /*______________contacto*/
-  /* line 215, ../sass/_responsive.scss */
+  /* line 214, ../sass/_responsive.scss */
   #container_contact {
     margin: 0;
     padding: 20px;
     padding: 2rem;
   }
-  /* line 218, ../sass/_responsive.scss */
+  /* line 217, ../sass/_responsive.scss */
   #container_contact #contact {
     width: 100%;
     padding: 0px 0px 0px 5px;
     padding: 0rem 0rem 0rem 0.5rem;
     border: none;
   }
-  /* line 222, ../sass/_responsive.scss */
+  /* line 221, ../sass/_responsive.scss */
   #container_contact #contact + div {
     display: none;
   }
-  /* line 226, ../sass/_responsive.scss */
+  /* line 225, ../sass/_responsive.scss */
   #container_contact h3 {
     padding: 0;
   }
-  /* line 229, ../sass/_responsive.scss */
+  /* line 228, ../sass/_responsive.scss */
   #container_contact .P30.PBot {
     padding: 0;
   }
-  /* line 232, ../sass/_responsive.scss */
+  /* line 231, ../sass/_responsive.scss */
   #container_contact form {
     margin-top: 10px;
+  }
+
+  /*______________about*/
+  /* line 237, ../sass/_responsive.scss */
+  #cabecera {
+    margin: 0 auto;
+  }
+  /* line 239, ../sass/_responsive.scss */
+  #cabecera h3 {
+    font-size: 30px;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 245, ../sass/_responsive.scss */
+  #container_about {
+    padding: 20px;
+    padding: 2rem;
+  }
+  /* line 247, ../sass/_responsive.scss */
+  #container_about section {
+    width: 100%;
+  }
+  /* line 251, ../sass/_responsive.scss */
+  #container_about article img {
+    display: block;
+    min-width: 130px;
+    margin-bottom: 10px;
+  }
+  /* line 256, ../sass/_responsive.scss */
+  #container_about article div {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 261, ../sass/_responsive.scss */
+  #container_about h4 {
+    padding-bottom: 0;
+  }
+
+  /* line 265, ../sass/_responsive.scss */
+  footer {
+    font-size: 13px;
   }
 }

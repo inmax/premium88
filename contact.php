@@ -16,7 +16,7 @@
         <?php include("includes/header_responsive.php");?>
         <div id="container_contact">
             <div id="contact" class="cuerpo_a">
-                <h3 class="titulos-section P30 PBot">Contac us</h3>
+                <h3 class="titulos-section P30 PBot">Contact us</h3>
                 <p  class="titulos-b P15 PBot">Get In Touch</p>
                 <p class="P30 PBot">Fill out the form below or call us at 917.670.3314.</p>
             
