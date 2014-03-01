@@ -9,7 +9,6 @@
 }
 #contact{
 	width: 60%;
-	@include rem-fallback(min-width,32);
 	height: auto;
 	@include rem-fallback(padding,0,5);
 	display: inline-block;

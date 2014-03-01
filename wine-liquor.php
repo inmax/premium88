@@ -14,6 +14,7 @@
 <body>
     <div id="wrap">
         <?php include("includes/header.php");?>
+        <?php include("includes/header_responsive.php");?>
         <section id="container">
         <?php include("includes/menu.php");?>
             <div id="content" class="section_wine ">

@@ -13,6 +13,7 @@
 <body>
     <div id="wrap">
         <?php include("includes/header-b.php");?>
+        <?php include("includes/header_responsive.php");?>
             <div id="cabecera"><!--cabecera -->
                     <h3 class="titulos-section">About us</h3>
                     <img src=""/><!--foto de los tres juntos -->

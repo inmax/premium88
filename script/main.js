@@ -57,4 +57,27 @@ $(function() {
           }
         });
       }
+
+    //RESPONSIVE
+
+    function desplegar() {
+      var menu = $('.icon-menu');
+      menu.click(function() {
+        $('.menu-res').toggleClass('active');
+      })
+    }
+    desplegar();
+    function scrollUp(){
+      $("#back-top").hide();
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('#back-top').fadeIn();
+          } else {
+          $('#back-top').fadeOut();}
+        });
+      $('#back-top a').click(function () {
+        $('body,html').animate({scrollTop: 0}, 500);
+          return false;});
+    }
+  scrollUp();
 });
