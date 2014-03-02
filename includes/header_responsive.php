@@ -9,8 +9,8 @@
   <div class="menu-res">
     <ul>
       <li class="language">
-        <div>ZN</div>
-        <div>English</div>
+        <div>ZN <span class="icon_h"></span></div>
+        <div>EN <span class="icon_g"></span></div>
       </li>
       <li>
         <a href="about.php">About us</a>

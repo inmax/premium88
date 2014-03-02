@@ -12,7 +12,7 @@
 
 <body>
     <div id="wrap">
-        <?php include("includes/header-b.php");?>
+        <?php include("includes/header.php");?>
         <?php include("includes/header_responsive.php");?>
         <div id="container_contact">
             <div id="contact" class="cuerpo_a">
