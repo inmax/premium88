@@ -57,7 +57,6 @@ $(function() {
           }
         });
       }
-
     //RESPONSIVE
 
     function desplegar() {
@@ -67,6 +66,7 @@ $(function() {
       })
     }
     desplegar();
+
     function scrollUp(){
       $("#back-top").hide();
       $(window).scroll(function () {
@@ -80,4 +80,15 @@ $(function() {
           return false;});
     }
   scrollUp();
+
+  function redireccionar() {
+    if (window.innerWidth <= 768) {
+      $('#linkWine').attr('href','trivium-collection-smartphone.php');
+      $('.cosmetics').attr('href','cosmetics-smartphone.php');
+      $('#linkWinePecinha').attr('href','senorio-pecina-smartphone.php');
+      $('#linkGourmet').attr('href','don-bocarte-smartphone.php');
+    }
+  }
+  redireccionar();
+  
 });

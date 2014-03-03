@@ -38,6 +38,9 @@
         }
         span {
           display: inline-block;
+          float: right;
+          margin-right: 10px;
+          margin-top: 20px;
           @include rem-fallback(width, 3); 
           @include rem-fallback(height, 5);
           @include rem-fallback(margin-left, 3);
@@ -91,7 +94,7 @@
           }
         }
         &.active {
-          height: 312px;
+          height: 320px;
         }
       }
     }

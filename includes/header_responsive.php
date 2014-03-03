@@ -28,7 +28,7 @@
         <a href="gourmet.php">Gourmet Food</a>
       </li>
       <li>
-        <a href="cosmetics.php">Cosmetics</a>
+        <a href="cosmetics-smartphone.php">Cosmetics</a>
       </li>
     </ul>
   </div>

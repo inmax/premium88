@@ -36,7 +36,7 @@
                 </h3>
                 <!--Item -->
                     <article class="cuerpo_b P15 PBot item_collection">
-                        <a href="trivium-collection.php">
+                        <a id="linkWine" href="trivium-collection.php">
                             
                             <h4 class="titulos-c P30 PBot">
                                 TRIVIUM COLLECTION
@@ -100,7 +100,7 @@
                     </article>
 
                     <article class="cuerpo_b P15 PBot item_collection ">
-                        <a href="senorio-pecina.php">
+                        <a id="linkWinePecinha" href="senorio-pecina.php">
                             <h4 class="titulos-c P30 PBot">
                                 RIOJA WINES – PECIÑA WINEMAKERS
                             </h4>

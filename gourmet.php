@@ -67,7 +67,7 @@
                     </article>
 
                     <article class="cuerpo_b P15 PBot item_collection">
-                        <a href="don-bocarte.php">
+                        <a id="linkGourmet" href="don-bocarte.php">
                         
                             <h4 class="titulos-c P30 PBot">
                                 DON BOCARTE PRODUCTS

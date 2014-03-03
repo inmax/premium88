@@ -85,7 +85,7 @@
                         </span>    
                     </article>
                 </a>
-                <a href="cosmetics.php"class="category cosmetics P30 PBot">
+                <a href="cosmetics.php" class="category cosmetics P30 PBot">
                     <img src="images/cosmetics.jpg" width="230" height="320" title="Cosmetics"/>
                     <article class="cuerpo_a">
                         
