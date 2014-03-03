@@ -179,6 +179,30 @@
           }
         }
       }
+      .section_cosmetic{
+        h3{
+          @include rem-fallback(margin-bottom,2);
+        }
+        .uds{
+          height: auto;
+          div{
+            @include rem-fallback(min-width,10.5);
+            @include rem-fallback(padding-bottom,1);
+            overflow: hidden;
+
+          }
+        }
+      }
+      .section_gourmet{
+        h3{
+          img{
+            width: 24%;
+            top:-87%
+
+          }
+        }
+
+      }
       .product_single {
         overflow: visible;
         height: auto;

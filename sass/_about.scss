@@ -75,5 +75,6 @@
 			@include rem-fallback(width, 92.4);
 			display: block;
 			margin: 0 auto;
+			@include rem-fallback(padding-top,5);
 	}
 }

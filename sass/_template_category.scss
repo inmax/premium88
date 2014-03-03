@@ -105,6 +105,9 @@
 				text-align: center;
 				line-height: 1.2em;
 			}
+			&.six{
+				width: 16.6%;
+			}
 
 		}
 
@@ -147,7 +150,6 @@
 		margin:0;
 	}
 	h3{
-		@include rem-fallback(height, 12);
 		img{
 			position: absolute;
 			top: 100%;
@@ -155,6 +157,12 @@
 			width: 22%;
 		}
 	}
+	.center{
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			@include rem-fallback(max-width,45);
+		}
 	.collection{
 		li{
 			width: 16%;

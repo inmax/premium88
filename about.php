@@ -15,14 +15,15 @@
         <?php include("includes/header.php");?>
         <?php include("includes/header_responsive.php");?>
            
-            <div id="cabecera"><!--cabecera -->
-                    <img src="images/about.png"/><!--foto de los tres juntos -->
+            <div id="cabecera">
+                    <!--<img src="images/about.png"/>-->
                     <h3 class="titulos-section">About us</h3>
                 </div>
+            
             <div id="container_about">   
                 <section class="cuerpo_a"><!-- perfiles-->
                     <article>
-                        <img src="images/roberto-atanes.jpg"/>
+                        <img src="images/jose-senaris.jpg"/>
                         <div><!--columna1 -->
                         <h4 class="titulos-c">
                            Dr. José Señarís Romay, Ph. D. 
@@ -111,7 +112,7 @@
                         
                     </article>
                     <article>
-                        <img src="images/roberto-atanes.jpg"/>
+                        <img src="images/carlos-senaris.jpg"/>
                         <div>
                         <h4 class="titulos-c">
                            Carlos Señarís Romay 
@@ -122,6 +123,7 @@
                         <p>
                            I have a goal in my life that is to link Asia, in particular China, with Spain. This connection has to be based in culture and business. Things that connect the two countries are the food and beverages of our company Premium88. 
                         </p>
+                        <img src="images/carlos-senaris-b.jpg" height="405" width="720" class="M20 MBot">
                         <p>
                             With the food and beverages that our company sell, you can taste the gourmet quality of the finest Spanish products. Eating and drinking these products will give you the experience as you already be inside of a Spanish deluxe restaurant.
                         </p>

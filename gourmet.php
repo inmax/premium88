@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name = "format-detection" content = "telephone=no">
-<title>PREMIUM 88 | SPAIN´S FINEST FOODS  DRINKS</title>
+<title>PREMIUM 88 | SPAIN´S FINEST FOODS & DRINKS</title>
 <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 <link rel="shortcut icon" type="image/x-icon" href="images/faviconb.ico">
 <script src="script/html5.js" type="text/javascript"></script>

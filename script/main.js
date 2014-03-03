@@ -84,7 +84,8 @@ $(function() {
   function redireccionar() {
     if (window.innerWidth <= 768) {
       $('#linkWine').attr('href','trivium-collection-smartphone.php');
-      $('.cosmetics').attr('href','cosmetics-smartphone.php');
+      $('#linkCosmeticsAloe').attr('href','cosmetics-aloe-smartphone.php');
+      $('#LinkCosmeticsOlive').attr('href','cosmetics-oil-smartphone.php');
       $('#linkWinePecinha').attr('href','senorio-pecina-smartphone.php');
       $('#linkGourmet').attr('href','don-bocarte-smartphone.php');
     }

@@ -21,7 +21,7 @@
 							<a href="about.php">About us</a>	
 						</li>
 						<li>
-							<a href="#"><span class="icon_f"></span>787df5f5d
+							<a href="our-values.php">Our Values
 							</a>
 						</li>
 						<li>

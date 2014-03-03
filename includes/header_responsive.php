@@ -19,6 +19,9 @@
         <a href="contact.php">Contact</a>
       </li>
       <li>
+        <a href="our-values.php">Our Values</a>
+      </li>
+      <li>
         <a href="olive-oil.php">Olive Oil</a>
       </li>
       <li>
@@ -28,7 +31,7 @@
         <a href="gourmet.php">Gourmet Food</a>
       </li>
       <li>
-        <a href="cosmetics-smartphone.php">Cosmetics</a>
+        <a href="cosmetics.php">Cosmetics</a>
       </li>
     </ul>
   </div>
