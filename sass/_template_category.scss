@@ -172,6 +172,53 @@
 			@include rem-fallback(height,6);
 		}
 	}
+	div.aloe {
+		position: relative;
+		height: 290px;
+		.aloe {
+			width: 160px;
+		}
+		ul {
+		overflow: hidden;
+			li {
+				-webkit-transition: all 0.5s;
+				transition: all 0.5s;
+				margin-left: 0;
+			}
+		}
+		.next,
+		.prev {
+			display: inline-block;
+			@include rem-fallback(height,4);
+			@include rem-fallback(width,4);
+			background-color: #cb1417;
+			border-radius: 20px;
+			z-index: 5;
+			background-image: url('../images/slideArrow.png');
+			transition: all 0.5s;
+			cursor: pointer;
+			&:hover {
+				background-color: #E72C2F;
+			}
+			&:active {
+				background-color: #F15154;
+			}
+		}
+		.prev {
+			position: absolute;
+			top: 50%;
+			left: -50px;
+			margin-top: -50px;
+			background-position: -40px 0;
+		}
+		.next {
+			position: absolute;
+			top: 50%;
+			right: -50px;
+			margin-top: -50px;
+			background-position: 0 0;
+		}
+	}
 }
 .section_gourmet{
 	h5{

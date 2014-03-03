@@ -122,11 +122,11 @@
             
         </section><!--div container -->
        <div id="item_it1" class="itemInfo">
-                    <h4 class="titulos-e P30 PBot">
-                           PURE ALOE VERA GEL
-                        </h4>
                     <img src="images/pure-aloe-vera-gel.jpg"/>
                     <div class="cuerpo_c">
+                        <h4 class="titulos-e P30 PBot">
+                               PURE ALOE VERA GEL
+                        </h4>
                         <h5 class="titulos-e P30 PBot">
                             Face and Body
                         </h5>

@@ -92,4 +92,26 @@ $(function() {
   }
   redireccionar();
   
+  function slide() {
+    var left = parseInt($('div.aloe ul li:first-child').css('margin-left'));
+    $('.collection.aloe').append('<span class="next">');
+    $('.collection.aloe').prepend('<span class="prev">');
+
+    $('.prev').click(function() {
+      if (left != 0) {
+        $('div.aloe ul li:first-child').css('margin-left', left + 654);
+        left = left + 654;
+      }
+    });
+    $('.next').click(function() {
+      if( left > - 1308 ) {
+        $('div.aloe ul li:first-child').css('margin-left', left - 654);
+        left = left - 654;
+      }
+    });
+
+  }
+  slide();
+
+
 });

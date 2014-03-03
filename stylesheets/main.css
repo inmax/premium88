@@ -1976,16 +1976,76 @@ table th, table td {
   height: 60px;
   height: 6rem;
 }
+/* line 175, ../sass/_template_category.scss */
+.section_cosmetic div.aloe {
+  position: relative;
+  height: 290px;
+}
+/* line 178, ../sass/_template_category.scss */
+.section_cosmetic div.aloe .aloe {
+  width: 160px;
+}
+/* line 181, ../sass/_template_category.scss */
+.section_cosmetic div.aloe ul {
+  overflow: hidden;
+}
+/* line 183, ../sass/_template_category.scss */
+.section_cosmetic div.aloe ul li {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-left: 0;
+}
+/* line 190, ../sass/_template_category.scss */
+.section_cosmetic div.aloe .next,
+.section_cosmetic div.aloe .prev {
+  display: inline-block;
+  height: 40px;
+  height: 4rem;
+  width: 40px;
+  width: 4rem;
+  background-color: #cb1417;
+  border-radius: 20px;
+  z-index: 5;
+  background-image: url("../images/slideArrow.png");
+  transition: all 0.5s;
+  cursor: pointer;
+}
+/* line 200, ../sass/_template_category.scss */
+.section_cosmetic div.aloe .next:hover,
+.section_cosmetic div.aloe .prev:hover {
+  background-color: #E72C2F;
+}
+/* line 203, ../sass/_template_category.scss */
+.section_cosmetic div.aloe .next:active,
+.section_cosmetic div.aloe .prev:active {
+  background-color: #F15154;
+}
+/* line 207, ../sass/_template_category.scss */
+.section_cosmetic div.aloe .prev {
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  margin-top: -50px;
+  background-position: -40px 0;
+}
+/* line 214, ../sass/_template_category.scss */
+.section_cosmetic div.aloe .next {
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  margin-top: -50px;
+  background-position: 0 0;
+}
 
-/* line 177, ../sass/_template_category.scss */
+/* line 224, ../sass/_template_category.scss */
 .section_gourmet h5 {
   margin: 0;
 }
-/* line 180, ../sass/_template_category.scss */
+/* line 227, ../sass/_template_category.scss */
 .section_gourmet h3 {
   position: relative;
 }
-/* line 182, ../sass/_template_category.scss */
+/* line 229, ../sass/_template_category.scss */
 .section_gourmet h3 img {
   position: absolute;
   top: -145%;
