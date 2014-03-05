@@ -1,4 +1,4 @@
-#container_contact{
+#container_contact,#container_values{
 	@include rem-fallback(max-width,92.4);
 	height: auto;
 	@include rem-fallback(padding,10,5,10);
@@ -7,7 +7,7 @@
 	white-space: nowrap;
 	margin:240px auto 0;
 }
-#contact{
+#contact,.values{
 	width: 60%;
 	height: auto;
 	@include rem-fallback(padding,0,5);
@@ -20,7 +20,7 @@
 	white-space: normal;
 	border-left: 1px dashed #A39E9E;
 }
-#contact + div{
+#contact + div, .values + div{
 	width: 40%;
 	height: 100%;
 	display: inline-block;	
@@ -28,6 +28,14 @@
 	overflow: hidden;
 
 
+}
+.values{
+	h4{
+		color:#000000;
+	}
+}
+.values_img{
+	max-width:none;
 }
 form{	
 	width: 100%;

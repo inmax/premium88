@@ -1355,7 +1355,7 @@ footer {
 }
 
 /* line 1, ../sass/_contact.scss */
-#container_contact {
+#container_contact, #container_values {
   max-width: 924px;
   max-width: 92.4rem;
   height: auto;
@@ -1368,7 +1368,7 @@ footer {
 }
 
 /* line 10, ../sass/_contact.scss */
-#contact {
+#contact, .values {
   width: 60%;
   height: auto;
   padding: 0px 50px;
@@ -1380,12 +1380,12 @@ footer {
   border-left: 1px dashed #A39E9E;
 }
 /* line 16, ../sass/_contact.scss */
-#contact h3 + p {
+#contact h3 + p, .values h3 + p {
   color: #000000;
 }
 
 /* line 23, ../sass/_contact.scss */
-#contact + div {
+#contact + div, .values + div {
   width: 40%;
   height: 100%;
   display: inline-block;
@@ -1393,16 +1393,26 @@ footer {
   overflow: hidden;
 }
 
-/* line 32, ../sass/_contact.scss */
+/* line 33, ../sass/_contact.scss */
+.values h4 {
+  color: #000000;
+}
+
+/* line 37, ../sass/_contact.scss */
+.values_img {
+  max-width: none;
+}
+
+/* line 40, ../sass/_contact.scss */
 form {
   width: 100%;
   height: auto;
 }
-/* line 35, ../sass/_contact.scss */
+/* line 43, ../sass/_contact.scss */
 form label {
   display: block;
 }
-/* line 38, ../sass/_contact.scss */
+/* line 46, ../sass/_contact.scss */
 form input {
   width: 80%;
   min-width: 240px;
@@ -1414,7 +1424,7 @@ form input {
   margin-bottom: 2rem;
   border-radius: 5px;
 }
-/* line 46, ../sass/_contact.scss */
+/* line 54, ../sass/_contact.scss */
 form textarea {
   width: 100%;
   min-height: 155px;
@@ -1425,7 +1435,7 @@ form textarea {
   text-align: left;
   border-radius: 5px;
 }
-/* line 54, ../sass/_contact.scss */
+/* line 62, ../sass/_contact.scss */
 form input[type=submit] {
   width: 145px;
   width: 14.5rem;
