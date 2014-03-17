@@ -989,7 +989,7 @@ header span div {
   vertical-align: middle;
 }
 
-/* line 337, ../sass/_template.scss */
+/* line 333, ../sass/_template.scss */
 .rawpper_header {
   width: 100%;
   height: 200px;
@@ -1003,7 +1003,7 @@ header span div {
   position: relative;
 }
 
-/* line 349, ../sass/_template.scss */
+/* line 345, ../sass/_template.scss */
 #header-b {
   height: 100%;
   display: block;
@@ -1011,30 +1011,36 @@ header span div {
   position: relative;
   margin: 0 auto;
 }
-/* line 355, ../sass/_template.scss */
+/* line 351, ../sass/_template.scss */
 #header-b div {
-  width: 500px;
-  width: 50rem;
+  width: 620px;
+  width: 62rem;
   height: 100%;
-  padding-top: 75px;
-  padding-top: 7.5rem;
+  padding-top: 35px;
+  padding-top: 3.5rem;
   margin: 0 auto;
   text-align: left;
 }
-/* line 362, ../sass/_template.scss */
+/* line 358, ../sass/_template.scss */
 #header-b h2 {
-  font-family: 'gentium';
   width: 100%;
   text-shadow: 1px 0px 0px black;
   font-size: 33px;
   font-size: 3.3rem;
   color: #FFFFFF;
-  padding: 0px 0px 14px 0px;
-  padding: 0rem 0rem 1.4rem 0rem;
   display: inline-block;
   text-align: center;
 }
-/* line 372, ../sass/_template.scss */
+/* line 366, ../sass/_template.scss */
+#header-b h3 {
+  font-size: 22px;
+  font-size: 2.2rem;
+  padding-bottom: 25px;
+  padding-bottom: 2.5rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+/* line 374, ../sass/_template.scss */
 #header-b nav {
   width: 100%;
   font-family: "museo";
@@ -1049,7 +1055,7 @@ header span div {
   display: inline-block;
   text-align: center;
 }
-/* line 384, ../sass/_template.scss */
+/* line 386, ../sass/_template.scss */
 #header-b ul {
   display: inline-block;
   text-align: center;
@@ -1059,28 +1065,29 @@ header span div {
   border-top: 1px #cb1417 inset;
   white-space: nowrap;
 }
-/* line 394, ../sass/_template.scss */
+/* line 396, ../sass/_template.scss */
 #header-b li {
   display: inline-block;
-  width: 33.33%;
+  width: auto;
   height: 100%;
   letter-spacing: 0;
   vertical-align: top;
+  margin-right: 26px;
 }
-/* line 401, ../sass/_template.scss */
+/* line 404, ../sass/_template.scss */
 #header-b li:last-child a {
   text-align: right;
 }
-/* line 406, ../sass/_template.scss */
+/* line 409, ../sass/_template.scss */
 #header-b li:first-child a {
   text-align: left;
   vertical-align: middle;
 }
-/* line 413, ../sass/_template.scss */
+/* line 416, ../sass/_template.scss */
 #header-b li:nth-child(2) a {
   text-align: center;
 }
-/* line 419, ../sass/_template.scss */
+/* line 422, ../sass/_template.scss */
 #header-b li a {
   display: block;
   text-align: left;
@@ -1089,10 +1096,10 @@ header span div {
   line-height: 55px;
   color: #FFFFFF;
   font-family: "museo";
-  font-size: 22px;
-  font-size: 2.2rem;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
-/* line 429, ../sass/_template.scss */
+/* line 432, ../sass/_template.scss */
 #header-b li span {
   display: inline-block;
   vertical-align: middle;
@@ -1103,7 +1110,7 @@ header span div {
   overflow: hidden;
 }
 
-/* line 441, ../sass/_template.scss */
+/* line 444, ../sass/_template.scss */
 #logo {
   position: absolute;
   top: -40px;
@@ -1117,12 +1124,12 @@ header span div {
   left: 50%;
 }
 
-/* line 450, ../sass/_template.scss */
+/* line 453, ../sass/_template.scss */
 .head-res {
   display: none;
 }
 
-/* line 455, ../sass/_template.scss */
+/* line 458, ../sass/_template.scss */
 #menu {
   width: 220px;
   width: 22rem;
@@ -1135,16 +1142,16 @@ header span div {
   left: 50%;
   z-index: 2;
 }
-/* line 463, ../sass/_template.scss */
+/* line 466, ../sass/_template.scss */
 #menu ul {
   width: 100%;
   height: 100%;
 }
-/* line 467, ../sass/_template.scss */
+/* line 470, ../sass/_template.scss */
 #menu li {
   width: 100%;
 }
-/* line 469, ../sass/_template.scss */
+/* line 472, ../sass/_template.scss */
 #menu li a {
   display: inline-block;
   width: 100%;
@@ -1178,15 +1185,15 @@ header span div {
   line-height: 60px;
   white-space: nowrap;
 }
-/* line 490, ../sass/_template.scss */
+/* line 493, ../sass/_template.scss */
 #menu li a p, #menu li a span {
   display: inline-block;
 }
-/* line 493, ../sass/_template.scss */
+/* line 496, ../sass/_template.scss */
 #menu li a p {
   text-align: left;
 }
-/* line 496, ../sass/_template.scss */
+/* line 499, ../sass/_template.scss */
 #menu li a span {
   position: absolute;
   right: 0;
@@ -1199,7 +1206,7 @@ header span div {
   overflow: hidden;
   vertical-align: middle;
 }
-/* line 507, ../sass/_template.scss */
+/* line 510, ../sass/_template.scss */
 #menu li a:hover {
   color: #FFFFFF;
   background: #8f9190;
@@ -1221,7 +1228,7 @@ header span div {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8f9190', endColorstr='#575756',GradientType=1 );
   /* IE6-8 fallback on horizontal gradient */
 }
-/* line 522, ../sass/_template.scss */
+/* line 525, ../sass/_template.scss */
 #menu li:first-child a {
   -webkit-border-top-left-radius: 20px;
   -webkit-border-top-right-radius: 20px;
@@ -1230,7 +1237,7 @@ header span div {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-/* line 532, ../sass/_template.scss */
+/* line 535, ../sass/_template.scss */
 #menu li:last-child a {
   border-bottom: none;
   -webkit-border-bottom-right-radius: 20px;
@@ -1241,19 +1248,19 @@ header span div {
   border-bottom-left-radius: 20px;
 }
 
-/* line 546, ../sass/_template.scss */
+/* line 549, ../sass/_template.scss */
 #container {
   width: 100%;
   min-width: 1260px;
   position: relative;
-  height: auto;
   margin: 340px 0px 50px 0px;
   margin: 34rem 0rem 5rem 0rem;
+  height: auto;
   background: #FFFFFF;
   z-index: 0;
 }
 
-/* line 555, ../sass/_template.scss */
+/* line 559, ../sass/_template.scss */
 #content {
   height: auto;
   width: 654px;
@@ -1262,7 +1269,7 @@ header span div {
   position: relative;
 }
 
-/* line 561, ../sass/_template.scss */
+/* line 565, ../sass/_template.scss */
 footer {
   width: 100%;
   height: 40px;
@@ -1275,7 +1282,7 @@ footer {
   padding: 0.5rem 0.5rem 0.5rem 3rem;
 }
 
-/* line 570, ../sass/_template.scss */
+/* line 574, ../sass/_template.scss */
 .category {
   width: 654px;
   width: 65.4rem;
@@ -1289,7 +1296,7 @@ footer {
   white-space: nowrap;
   position: relative;
 }
-/* line 581, ../sass/_template.scss */
+/* line 585, ../sass/_template.scss */
 .category article {
   display: inline-block;
   position: relative;
@@ -1300,11 +1307,11 @@ footer {
   width: 37.4rem;
   height: 100%;
 }
-/* line 589, ../sass/_template.scss */
+/* line 593, ../sass/_template.scss */
 .category article p {
   line-height: 1.3em;
 }
-/* line 592, ../sass/_template.scss */
+/* line 596, ../sass/_template.scss */
 .category article span {
   position: absolute;
   display: block;
@@ -1313,7 +1320,7 @@ footer {
   margin-left: -85px;
   margin-left: -8.5rem;
 }
-/* line 601, ../sass/_template.scss */
+/* line 605, ../sass/_template.scss */
 .category img {
   display: inline-block;
   vertical-align: top;
@@ -1326,7 +1333,7 @@ footer {
 }
 
 /*__________Migas de pan*/
-/* line 612, ../sass/_template.scss */
+/* line 616, ../sass/_template.scss */
 .miga {
   display: block;
   overflow: hidden;
@@ -1335,21 +1342,21 @@ footer {
   position: absolute;
   top: -100px;
 }
-/* line 618, ../sass/_template.scss */
+/* line 622, ../sass/_template.scss */
 .miga li {
   float: left;
   font-size: 20px;
   font-size: 2rem;
 }
-/* line 621, ../sass/_template.scss */
+/* line 625, ../sass/_template.scss */
 .miga li a {
   color: #FF7E80;
 }
-/* line 623, ../sass/_template.scss */
+/* line 627, ../sass/_template.scss */
 .miga li a:hover {
   text-decoration: underline;
 }
-/* line 629, ../sass/_template.scss */
+/* line 633, ../sass/_template.scss */
 .miga li:last-child a {
   color: #cb1417;
 }
@@ -1365,9 +1372,10 @@ footer {
   text-align: left;
   white-space: nowrap;
   margin: 240px auto 0;
+  min-height: 700px;
 }
 
-/* line 10, ../sass/_contact.scss */
+/* line 11, ../sass/_contact.scss */
 #contact, .values {
   width: 60%;
   height: auto;
@@ -1379,12 +1387,13 @@ footer {
   white-space: normal;
   border-left: 1px dashed #A39E9E;
 }
-/* line 16, ../sass/_contact.scss */
-#contact h3 + p, .values h3 + p {
-  color: #000000;
+
+/* line 21, ../sass/_contact.scss */
+#contact {
+  width: 100%;
 }
 
-/* line 23, ../sass/_contact.scss */
+/* line 24, ../sass/_contact.scss */
 #contact + div, .values + div {
   width: 40%;
   height: 100%;
@@ -1393,26 +1402,45 @@ footer {
   overflow: hidden;
 }
 
-/* line 33, ../sass/_contact.scss */
-.values h4 {
+/* line 34, ../sass/_contact.scss */
+.values h4, #contact h4 {
   color: #000000;
 }
 
-/* line 37, ../sass/_contact.scss */
+/* line 38, ../sass/_contact.scss */
+.phone {
+  color: #cb1417;
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "museo";
+}
+
+/* line 43, ../sass/_contact.scss */
 .values_img {
   max-width: none;
 }
 
-/* line 40, ../sass/_contact.scss */
+/* line 46, ../sass/_contact.scss */
+ul.contact {
+  font-size: 18px;
+  font-size: 1.8rem;
+  white-space: normal;
+}
+/* line 49, ../sass/_contact.scss */
+ul.contact li {
+  list-style-type: circle;
+}
+
+/* line 53, ../sass/_contact.scss */
 form {
   width: 100%;
   height: auto;
 }
-/* line 43, ../sass/_contact.scss */
+/* line 56, ../sass/_contact.scss */
 form label {
   display: block;
 }
-/* line 46, ../sass/_contact.scss */
+/* line 59, ../sass/_contact.scss */
 form input {
   width: 80%;
   min-width: 240px;
@@ -1424,18 +1452,18 @@ form input {
   margin-bottom: 2rem;
   border-radius: 5px;
 }
-/* line 54, ../sass/_contact.scss */
+/* line 67, ../sass/_contact.scss */
 form textarea {
   width: 100%;
-  min-height: 155px;
-  min-height: 15.5rem;
+  min-height: 245px;
+  min-height: 24.5rem;
   margin-bottom: 30px;
   margin-bottom: 3rem;
   background: #E3E4E0;
   text-align: left;
   border-radius: 5px;
 }
-/* line 62, ../sass/_contact.scss */
+/* line 75, ../sass/_contact.scss */
 form input[type=submit] {
   width: 145px;
   width: 14.5rem;
@@ -1458,14 +1486,14 @@ form input[type=submit] {
   vertical-align: top;
   text-align: left;
 }
-/* line 8, ../sass/_about.scss */
+/* line 7, ../sass/_about.scss */
 #container_about section {
   width: 924px;
   height: auto;
   z-index: 0;
   margin: 0 auto;
 }
-/* line 15, ../sass/_about.scss */
+/* line 14, ../sass/_about.scss */
 #container_about article {
   width: 100%;
   height: auto;
@@ -1476,7 +1504,7 @@ form input[type=submit] {
   margin-bottom: 15px;
   margin-bottom: 1.5rem;
 }
-/* line 24, ../sass/_about.scss */
+/* line 23, ../sass/_about.scss */
 #container_about article div {
   width: 60%;
   height: auto;
@@ -1485,7 +1513,7 @@ form input[type=submit] {
   padding: 0px 0px 30px 20px;
   padding: 0rem 0rem 3rem 2rem;
 }
-/* line 30, ../sass/_about.scss */
+/* line 29, ../sass/_about.scss */
 #container_about article div img {
   border-radius: 0;
   text-align: center;
@@ -1493,12 +1521,12 @@ form input[type=submit] {
   width: 100%;
   height: auto;
 }
-/* line 37, ../sass/_about.scss */
+/* line 36, ../sass/_about.scss */
 #container_about article div ul {
   padding: 0px 0px 20px 30px;
   padding: 0rem 0rem 2rem 3rem;
 }
-/* line 41, ../sass/_about.scss */
+/* line 40, ../sass/_about.scss */
 #container_about article img {
   width: 20%;
   -webkit-border-radius: 50%;
@@ -1510,18 +1538,18 @@ form input[type=submit] {
   -moz-box-shadow: 0px -1px 2px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px -1px 2px 0px rgba(50, 50, 50, 0.75);
 }
-/* line 53, ../sass/_about.scss */
+/* line 52, ../sass/_about.scss */
 #container_about p {
   padding-bottom: 15px;
   padding-bottom: 1.5rem;
 }
-/* line 57, ../sass/_about.scss */
+/* line 56, ../sass/_about.scss */
 #container_about h4 {
   padding-bottom: 30px;
   padding-bottom: 3rem;
 }
 
-/* line 62, ../sass/_about.scss */
+/* line 61, ../sass/_about.scss */
 #cabecera {
   display: block;
   width: 100%;
@@ -1530,14 +1558,14 @@ form input[type=submit] {
   position: relative;
   background: #e6e6e6;
 }
-/* line 69, ../sass/_about.scss */
+/* line 68, ../sass/_about.scss */
 #cabecera img {
   width: 400px;
   width: 40rem;
   display: block;
   margin: 0 auto;
 }
-/* line 74, ../sass/_about.scss */
+/* line 73, ../sass/_about.scss */
 #cabecera h3 {
   width: 924px;
   width: 92.4rem;
@@ -1545,6 +1573,16 @@ form input[type=submit] {
   margin: 0 auto;
   padding-top: 50px;
   padding-top: 5rem;
+}
+
+/* line 1, ../sass/_consulting.scss */
+div.consulting {
+  width: 100% !important;
+}
+/* line 3, ../sass/_consulting.scss */
+div.consulting p {
+  display: list-item;
+  list-style: circle;
 }
 
 /* line 4, ../sass/_template_products.scss */
@@ -1957,18 +1995,32 @@ table th, table td {
   cursor: pointer;
 }
 
-/* line 149, ../sass/_template_category.scss */
+/* line 148, ../sass/_template_category.scss */
+.cosmetics article {
+  height: auto;
+  float: right;
+}
+/* line 151, ../sass/_template_category.scss */
+.cosmetics article a {
+  margin: 50px auto 0;
+}
+/* line 154, ../sass/_template_category.scss */
+.cosmetics article h4:hover {
+  text-decoration: underline;
+}
+
+/* line 161, ../sass/_template_category.scss */
 .section_cosmetic h5 {
   margin: 0;
 }
-/* line 153, ../sass/_template_category.scss */
+/* line 165, ../sass/_template_category.scss */
 .section_cosmetic h3 img {
   position: absolute;
   top: 100%;
   left: 85%;
   width: 22%;
 }
-/* line 160, ../sass/_template_category.scss */
+/* line 172, ../sass/_template_category.scss */
 .section_cosmetic .center {
   display: block;
   margin: 0 auto;
@@ -1976,36 +2028,36 @@ table th, table td {
   max-width: 450px;
   max-width: 45rem;
 }
-/* line 167, ../sass/_template_category.scss */
+/* line 179, ../sass/_template_category.scss */
 .section_cosmetic .collection li {
   width: 16%;
   height: auto;
 }
-/* line 171, ../sass/_template_category.scss */
+/* line 183, ../sass/_template_category.scss */
 .section_cosmetic .collection a {
   height: 60px;
   height: 6rem;
 }
-/* line 175, ../sass/_template_category.scss */
+/* line 187, ../sass/_template_category.scss */
 .section_cosmetic div.aloe {
   position: relative;
   height: 290px;
 }
-/* line 178, ../sass/_template_category.scss */
+/* line 190, ../sass/_template_category.scss */
 .section_cosmetic div.aloe .aloe {
   width: 160px;
 }
-/* line 181, ../sass/_template_category.scss */
+/* line 193, ../sass/_template_category.scss */
 .section_cosmetic div.aloe ul {
   overflow: hidden;
 }
-/* line 183, ../sass/_template_category.scss */
+/* line 195, ../sass/_template_category.scss */
 .section_cosmetic div.aloe ul li {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-left: 0;
 }
-/* line 190, ../sass/_template_category.scss */
+/* line 202, ../sass/_template_category.scss */
 .section_cosmetic div.aloe .next,
 .section_cosmetic div.aloe .prev {
   display: inline-block;
@@ -2020,17 +2072,17 @@ table th, table td {
   transition: all 0.5s;
   cursor: pointer;
 }
-/* line 200, ../sass/_template_category.scss */
+/* line 212, ../sass/_template_category.scss */
 .section_cosmetic div.aloe .next:hover,
 .section_cosmetic div.aloe .prev:hover {
   background-color: #E72C2F;
 }
-/* line 203, ../sass/_template_category.scss */
+/* line 215, ../sass/_template_category.scss */
 .section_cosmetic div.aloe .next:active,
 .section_cosmetic div.aloe .prev:active {
   background-color: #F15154;
 }
-/* line 207, ../sass/_template_category.scss */
+/* line 219, ../sass/_template_category.scss */
 .section_cosmetic div.aloe .prev {
   position: absolute;
   top: 50%;
@@ -2038,7 +2090,7 @@ table th, table td {
   margin-top: -50px;
   background-position: -40px 0;
 }
-/* line 214, ../sass/_template_category.scss */
+/* line 226, ../sass/_template_category.scss */
 .section_cosmetic div.aloe .next {
   position: absolute;
   top: 50%;
@@ -2047,15 +2099,15 @@ table th, table td {
   background-position: 0 0;
 }
 
-/* line 224, ../sass/_template_category.scss */
+/* line 236, ../sass/_template_category.scss */
 .section_gourmet h5 {
   margin: 0;
 }
-/* line 227, ../sass/_template_category.scss */
+/* line 239, ../sass/_template_category.scss */
 .section_gourmet h3 {
   position: relative;
 }
-/* line 229, ../sass/_template_category.scss */
+/* line 241, ../sass/_template_category.scss */
 .section_gourmet h3 img {
   position: absolute;
   top: -145%;

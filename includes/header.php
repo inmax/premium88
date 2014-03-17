@@ -13,12 +13,22 @@
 			</a>
 			<div>
 				<h2>
-					SPAIN´S FINEST FOODS & DRINKS
+					SPAIN´S FINEST FOODS & DRINKS	
 				</h2>
+				<h3>
+					Gourmet wholesale export company
+				</h3>
+					
 				<nav>
 					<ul>
 						<li >
 							<a href="about.php">About us</a>	
+						</li>
+						<li >
+							<a href="our-company.php">Our Company</a>	
+						</li>
+						<li>
+							<a href="china-consulting.php">China Consulting</a>	
 						</li>
 						<li>
 							<a href="our-values.php">Our Values

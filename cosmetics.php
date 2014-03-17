@@ -33,22 +33,8 @@
                         <img src="images/cosmetic-olive.png"/>
                     </span>
                 </h3>
-                <!--Item -->               
-                    <article class="cuerpo_b P15 PBot item_collection">
-                        <a id="linkCosmeticsAloe" href="cosmetics-aloe.php">
-                        
-                            <h4 class="titulos-c P30 PBot">
-                               ALOE VERA COLLECTION
-                            </h4>
-                            <p class="P30 PBot letra_capital">
-                            Cosmetics formulated with a high content of Aloe Vera, the natural Wonder of the Canary Islands, and made in Spain, using Aloe Vera from Fuerteventura. A wide range of cosmetics for deep skincare. Excellent scientifically proven results on epidermis regeneration thanks to the Aloe Vera properties.
-
-                            </p>
-                            <img class="center" src="images/spa-in-cosmetics.jpg"/>
-                        </a> 
-                    </article> 
-
-                    <article class="cuerpo_b P15 PBot item_collection">
+                <!--Item -->
+                <article class="cuerpo_b P15 PBot item_collection">
                         <a id="LinkCosmeticsOlive" href="cosmetics-oil.php">
                         
                             <h4 class="titulos-c P30 PBot">
@@ -101,7 +87,21 @@
                             </div> 
                             
                         </a> 
-                    </article> 
+                    </article>                
+                    <article class="cuerpo_b P15 PBot item_collection">
+                        <a id="linkCosmeticsAloe" href="cosmetics-aloe.php">
+                        
+                            <h4 class="titulos-c P30 PBot">
+                               ALOE VERA COLLECTION
+                            </h4>
+                            <p class="P30 PBot letra_capital">
+                            Cosmetics formulated with a high content of Aloe Vera, the natural Wonder of the Canary Islands, and made in Spain, using Aloe Vera from Fuerteventura. A wide range of cosmetics for deep skincare. Excellent scientifically proven results on epidermis regeneration thanks to the Aloe Vera properties.
+
+                            </p>
+                            <img class="center" src="images/spa-in-cosmetics.jpg" style="width:50%;"/>
+                        </a> 
+                    </article>
+                    
 
             </div><!--div contet -->
             
